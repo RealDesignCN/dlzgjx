@@ -1,0 +1,32 @@
+<div class="gsmc">{dede:global.cfg_company_name/}QQ：{dede:global.cfg_company_qq/} 招生7×24小时咨询热线：{dede:global.cfg_company_phone/}  {dede:global.cfg_company_mobileph/}（办公室）</div>
+<div class="footer" id="bd_id">
+  <ul>
+    <li class="tit1"><a href='tel:{dede:global.cfg_company_phone/}'><i class="global"></i><span class="globalt">电话咨询</span></a></li>
+    <li class="tit2"><a href='http://wpa.qq.com/msgrd?v=3&uin={dede:global.cfg_company_qq/}&site=qq&menu=yes'><i class="global"></i><span class="globalt">QQ咨询</span></a></li>
+    <li class="tit3"><a href='{dede:global.cfg_gotong/}'><i class="global"></i><span class="globalt">在线咨询</span></a></li>
+    <li class="tit4"><a href='/m/list.php?tid=16'><i class="global"></i><span class="globalt">网上报名</span></a></li>
+  </ul>
+</div>
+
+<!-- FlexSlider --> 
+
+<script defer src="/dede58m/js/jquery.flexslider.js"></script> 
+<script type="text/javascript">
+
+        $(window).load(function () {
+
+            $('.flexslider').flexslider({
+
+                animation: "slide",
+
+                start: function (slider) {
+
+                    $('body').removeClass('loading');
+
+                }
+
+            });
+
+        });
+
+    </script> 

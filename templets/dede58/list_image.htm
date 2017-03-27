@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<link href='/dede58/css/cslg2013h.css' rel='stylesheet' type='text/css'>
+<link rel='Shortcut Icon' href='ico.ico'>
+</head>
+
+<body id='sec-detail-page'>
+{dede:include filename="head.htm"/} 
+<!-- nav -->
+</div>
+<!-- nav-pic-bg -->
+<div id="inner-logo"><img src="/dede58/img/1462863696.jpg" alt="内页广告" width="1024" height="260" /></div>
+<div id="main-wrapper">
+<div id="main-box">
+<div class="left">
+  <ul class="lm-list" cata="about.php" style="display: block;">
+    {dede:channel type='son' row='25' currentstyle="
+    <li class='hover'> <a href='~typelink~'>~typename~</a></li>
+    "}
+    <li class=''> <a href='[field:typeurl/]'>[field:typename/]</a></li>
+    {/dede:channel}
+  </ul>
+  <div class="cld-list" style="display:none;">
+    <dl id="lsyg-box">
+    </dl>
+  </div>
+</div>
+<!-- left -->
+<div class="right">
+  <div class="loc-box">{dede:field name='position'/}</div>
+  <h2 class="sec-tit"></h2>
+  <div class="sec-content-box">
+    <ul class="pageList picList" pagesize="15">
+      {dede:list pagesize='9'  titlelen='38'}
+      <li style="display: list-item;"> <a class="need-pic" href="[field:arcurl/]"> <img src="[field:litpic/]" alt="[field:title/]">[field:title/]</a> </li>
+      {/dede:list}
+    </ul>
+    <div style="clear:both;"></div>
+    <div class="pageChanger">
+      <div class="pagelink"> <span> {dede:pagelist istitem="index,pre,next,end,option,info," listsize="5"/} </span> </div>
+    </div>
+  </div>
+  <!-- sec-content-box --> 
+</div>
+<!-- right -->
+<div class="clear footer-split"></div>
+{dede:include filename="footer.htm"/}
+</body>
+</html>

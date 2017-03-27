@@ -1,0 +1,380 @@
+﻿/* 织梦58（dede58.com）做最好的织梦整站模板下载网站 */
+body {
+	font-size: 12px;
+	min-width: 320px;
+	font-family: arial, verdana, sans-serif;
+	background: url(img/bodybg.jpg) repeat;
+	padding: 0;
+	margin: 0;
+	padding-bottom: 71px
+}
+ul, li {
+	list-style: none;
+	padding: 0;
+	margin: 0
+}
+a {
+	text-decoration: none;
+	color: #676767
+}
+img {
+	border: none
+}
+.header {
+	width: 100%;
+	height: 61px;
+	background: url(img/headerbg.jpg) repeat-x;
+	text-align: center;
+	position: relative;
+	z-index: 11111111
+}
+.menu {
+	float: left;
+	margin-top: 25px;
+	margin-left: 10px;
+	width: 22px;
+	height: 16px;
+	cursor: pointer
+}
+.submenu {
+	width: 100px;
+	height: auto;
+	position: absolute;
+	z-index: 11111;
+	left: 10px;
+	top: 40px;
+	display: none;
+	padding-top: 3px
+}
+.submenu ul {
+	background: #ffffff
+}
+.submenu ul li {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background: #cad3d7;
+	margin-bottom: 1px
+}
+.submenu ul li a {
+	color: #0f8f9a;
+	font-size: 14px
+}
+.fhsyy {
+	float: right;
+	margin-top: 23px;
+	margin-right: 10px;
+	width: 23px;
+	height: 20px
+}
+.logo {
+	margin: 0 auto;
+	margin-left: 20px;
+	text-align: left;
+	float: left;
+	font-weight: 700;
+	font-family: 微软雅黑;
+	line-height: 61px;
+}
+.logo a {
+	color: #FFF;
+	font-size: 20px;
+}
+.banner {
+	width: 100%;
+	height: 167px;
+	overflow: hidden;
+	position: relative;
+	z-index: 1
+}
+.slider {
+	width: 320px;
+	height: 167px;
+	margin: 0 auto
+}
+.sy_pro {
+	width: 100%;
+	height: auto;
+	padding-top: 16px;
+	overflow: hidden
+}
+.sy_pro ul li {
+	width: 33%;
+	height: 127px;
+	float: left;
+	text-align: center
+}
+.sy_pro ul li .photo {
+	width: 81px;
+	height: 82px;
+	background: url(img/cplibg.png) no-repeat;
+	margin: 0 auto;
+	padding-top: 5px;
+	padding-left: 6px;
+	text-align: left
+}
+.sy_pro ul li .name {
+	width: 100%;
+	line-height: 24px;
+	margin: 0px;
+	padding: 0px
+}
+.sy_pro ul li .name a {
+	color: #5a5d5d;
+	font-size: 14px
+}
+.gsmc {
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+	padding: 20px 0px;
+	color: #5d5d5d;
+	font-size: 14px;
+	text-align: center
+}
+.footer {
+	width: 100%;
+	background: #0f8f9a;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	z-index: 9999;
+}
+.footer ul li {
+	width: 25%;
+	text-align: center;
+	float: left;
+	background: url(img/fxt.png) no-repeat right top;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.footer ul li .global {
+	display: block;
+	width: 25px;
+	height: 25px;
+	margin: 0 auto;
+}
+.footer ul li.tit1 .global {
+	background: url(img/ft1.png) no-repeat;
+}
+.footer ul li.tit2 .global {
+	background: url(img/ft2.png) no-repeat;
+}
+.footer ul li.tit3 .global {
+	background: url(img/ft3.png) no-repeat;
+}
+.footer ul li.tit4 .global {
+	background: url(img/ft4.png) no-repeat;
+}
+.footer ul li.tit4 {
+	background: none
+}
+.footer ul li .globalt {
+	display: block;
+	color: #FFF;
+	font-weight: 700;
+	font-family: 微软雅黑;
+	font-size: 12px;
+}
+.footer ul li.end {
+	background: none
+}
+.footer ul li a {
+	display: block;
+}
+body.ny {
+	background: #FFF
+}
+.nyabnner {
+	width: 100%;
+	text-align: center;
+	height: 149px;
+	overflow: hidden;
+	position: relative;
+	z-index: 1
+}
+.conter {
+	padding: 10px 10px 0px
+}
+.title {
+	height: 26px;
+	background: url(img/nytitlebg.jpg) no-repeat left bottom;
+	line-height: 20px;
+	position: relative;
+	background-size: 100% 2px;
+	color: #0f8f9a;
+	font-size: 16px
+}
+.tright {
+	position: absolute;
+	top: 2px;
+	display: none;
+	right: 0px
+}
+.news {
+	padding: 10px 0px;
+	border-bottom: solid 1px #cecfcf;
+	overflow: hidden
+}
+.news ul li {
+	height: 25px;
+	line-height: 25px;
+	background: url(img/nynewslibg.png) no-repeat left 10px;
+	padding-left: 10px;
+	border-bottom: solid 1px #e2e2e2
+}
+.news ul li a {
+	color: #5a5d5d;
+	font-size: 14px
+}
+.page {
+	width: 100%;
+	padding: 20px 0;
+	text-align: center;
+	clear: both
+}
+.page .prev, .page .next {
+	margin: 0 5px;
+	padding: 10px 8px;
+	color: #5a5d5d;
+	font-size: 14px;
+	border: solid 1px #919191
+}
+.page .num {
+	margin: 0 5px;
+	text-align: center;
+	color: #5a5d5d;
+	padding: 4px 5px
+}
+.page .cur {
+	color: #0f8f9a
+}
+.detail {
+	margin: 0 auto
+}
+.detail .title {
+	height: 27px
+}
+.detail .title h3 {
+	line-height: 27px;
+	padding-left: 14px
+}
+.detail .tit {
+	line-height: 20px;
+	text-align: center;
+	font-weight: bold;
+	border-bottom: 1px solid #6fbcc2
+}
+.detail .related {
+	padding: 6px 0;
+	text-align: center
+}
+.detail .related span {
+	padding: 0 10px
+}
+.detail .text {
+	padding: 10px;
+	line-height: 23px
+}
+.detail .text .photo {
+	text-align: center
+}
+.detail .other {
+	padding: 8px 0;
+	width: 100%
+}
+.detail .other li {
+	line-height: 24px;
+	padding-left: 20px
+}
+.detail .other li a {
+	color: #000
+}
+.ny_pro {
+	padding: 20px 0px;
+	border-bottom: solid 1px #cecfcf;
+	overflow: hidden;
+	clear: both
+}
+.ny_pro ul li {
+	width: 50%;
+	height: 140px;
+	float: left;
+	text-align: center
+}
+.ny_pro ul li .photo {
+	width: 141px;
+	height: 104px;
+	margin: 0 auto;
+	border: solid 1px #9e9e9e;
+	padding-top: 2px
+}
+.ny_pro ul li .name {
+	padding: 0px;
+	margin: 0px;
+	line-height: 24px;
+	text-align: center
+}
+.ny_pro ul li .name a {
+	color: #5a5d5d;
+	font-size: 14px
+}
+.danye {
+	line-height: 24px;
+	font-size: 14px;
+	color: #5a5d5d;
+	padding: 20px 0px;
+	border-bottom: solid 1px #cecfcf
+}
+select {
+	float: right;
+	margin-right: 20px
+}
+.pageselect {
+	background-color: #fff;
+	font-size: 14px;
+	border: 1px solid #ccc;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	width: 86px;
+	padding: 3px 0;
+	margin-top: -4px;
+}
+.dede_pages {
+}
+.dede_pages ul {
+	padding: 12px 0px 12px 16px;
+	text-align: center;
+}
+.dede_pages ul li {
+	line-height: 17px;
+	margin-right: 6px;
+	border: 1px solid #45BD8D;
+	list-style: none;
+	display: inline;
+	padding: 3px 0px;
+}
+.dede_pages ul li a {;
+	padding: 2px 4px 2px 4px;
+	color: #555;
+}
+.dede_pages ul li a:hover {
+	color: #690;
+	text-decoration: none;
+	padding: 2px 4px 2px;
+}
+.dede_pages ul li.thisclass, .dede_pages ul li.thisclass a, .pagebox ul li.thisclass a:hover {
+	font-weight: 700;
+}
+.dede_pages .pageinfo {
+	line-height: 21px;
+	padding: 0px 10px 0px 16px;
+	color: #999;
+}
+.dede_pages .pageinfo strong {
+	color: #555;
+	font-weight: normal;
+	margin: 0px 0px;
+}

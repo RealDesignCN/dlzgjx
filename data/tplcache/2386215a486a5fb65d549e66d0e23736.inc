@@ -1,0 +1,1 @@
+<a href="[field:typeurl/]" class="nn n2">[field:typename/]</a>

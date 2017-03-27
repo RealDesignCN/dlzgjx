@@ -1,0 +1,357 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title> 大石化新区企业服务中心联合本报 开设专栏解读企业相关政策法规_我的网站</title>
+<meta name="keywords" content="企业,新区,石化,服务中心,政策" />
+<meta name="description" content="大石化新区企业服务中心联合本报 开设专栏解读企业相关政策法规" />
+<link href="/templets/default/style/dedecms.css" rel="stylesheet" media="screen" type="text/css" />
+<meta http-equiv="mobile-agent" content="format=xhtml;url=/m/view.php?aid=8">
+<script type="text/javascript">if(window.location.toString().indexOf('pref=padindex') != -1){}else{if(/AppleWebKit.*Mobile/i.test(navigator.userAgent) || (/MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/.test(navigator.userAgent))){if(window.location.href.indexOf("?mobile")<0){try{if(/Android|Windows Phone|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)){window.location.href="/m/view.php?aid=8";}else if(/iPad/i.test(navigator.userAgent)){}else{}}catch(e){}}}}</script>
+<script language="javascript" type="text/javascript" src="/include/dedeajax2.js"></script>
+
+<script language="javascript" type="text/javascript">
+<!--
+function CheckLogin(){
+	  var taget_obj = document.getElementById('_ajax_feedback');
+	  myajax = new DedeAjax(taget_obj,false,false,'','','');
+	  myajax.SendGet2("/member/ajax_feedback.php");
+	  DedeXHTTP = null;
+}
+function postBadGood(ftype,fid)
+{
+	var taget_obj = document.getElementById(ftype+fid);
+	var saveid = GetCookie('badgoodid');
+	if(saveid != null)
+	{
+		var saveids = saveid.split(',');
+		var hasid = false;
+		saveid = '';
+		j = 1;
+		for(i=saveids.length-1;i>=0;i--)
+		{
+			if(saveids[i]==fid && hasid) continue;
+			else {
+				if(saveids[i]==fid && !hasid) hasid = true;
+				saveid += (saveid=='' ? saveids[i] : ','+saveids[i]);
+				j++;
+				if(j==10 && hasid) break;
+				if(j==9 && !hasid) break;
+			}
+		}
+		if(hasid) { alert('您刚才已表决过了喔！'); return false;}
+		else saveid += ','+fid;
+		SetCookie('badgoodid',saveid,1);
+	}
+	else
+	{
+		SetCookie('badgoodid',fid,1);
+	}
+	myajax = new DedeAjax(taget_obj,false,false,'','','');
+	myajax.SendGet2("/plus/feedback.php?aid="+fid+"&action="+ftype+"&fid="+fid);
+}
+function postDigg(ftype,aid)
+{
+	var taget_obj = document.getElementById('newdigg');
+	var saveid = GetCookie('diggid');
+	if(saveid != null)
+	{
+		var saveids = saveid.split(',');
+		var hasid = false;
+		saveid = '';
+		j = 1;
+		for(i=saveids.length-1;i>=0;i--)
+		{
+			if(saveids[i]==aid && hasid) continue;
+			else {
+				if(saveids[i]==aid && !hasid) hasid = true;
+				saveid += (saveid=='' ? saveids[i] : ','+saveids[i]);
+				j++;
+				if(j==20 && hasid) break;
+				if(j==19 && !hasid) break;
+			}
+		}
+		if(hasid) { alert("您已经顶过该帖，请不要重复顶帖 ！"); return; }
+		else saveid += ','+aid;
+		SetCookie('diggid',saveid,1);
+	}
+	else
+	{
+		SetCookie('diggid',aid,1);
+	}
+	myajax = new DedeAjax(taget_obj,false,false,'','','');
+	var url = "/plus/digg_ajax.php?action="+ftype+"&id="+aid;
+	myajax.SendGet2(url);
+}
+function getDigg(aid)
+{
+	var taget_obj = document.getElementById('newdigg');
+	myajax = new DedeAjax(taget_obj,false,false,'','','');
+	myajax.SendGet2("/plus/digg_ajax.php?id="+aid);
+	DedeXHTTP = null;
+}
+-->
+</script>
+</head>
+<body class="articleview">
+<div class="header_top">  
+    <div class="w960 center">  
+     <span id="time" class="time">织梦CMS - 轻松建站从此开始！</span>
+     <div class="toplinks"><a href="/plus/heightsearch.php" target="_blank">高级搜索</a>|<a href="/data/sitemap.html" target="_blank">网站地图</a>|<a href="/tags.php">TAG标签</a><a href="/data/rssmap.html" class="rss">RSS订阅</a><span>[<a href=""onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://localhost:82');">设为首页</a>] [<a href="javascript:window.external.AddFavorite('http://localhost:82','我的网站')">加入收藏</a>]</span></div>
+    </div> 
+</div>
+<div class="header">
+	<div class="top w960 center">
+      <div class="title">
+        <h1><a href="http://localhost:82"><img src="/templets/default/images/logo.gif" height="54" width="216" alt="我的网站"/></a> </h1>
+      </div>
+      <div class="banner"></div>
+      <div class="banner2"></div>
+       
+	</div><!-- //top -->
+	<!-- //菜单 -->
+	<div class="module blue mT10 wrapper w963">
+  	<div class="top">
+    	<!-- //如果不使用currentstyle，可以在channel标签加入 cacheid='channeltoplist' 属性提升性能 -->
+    <div id="navMenu">
+    	<ul>
+      	<li><a href='/'><span>主页</span></a></li>
+      	
+      	<li><a href='/a/xueyuangaikuang/'  rel='dropmenu1'><span>学院概况</span></a></li>
+      	
+      	<li><a href='/a/jigoushezhi/' ><span>机构设置</span></a></li>
+      	<li class='hover'><a href='/a/zhaoshenggongzuo/' ><span>招生工作</span></a></li>
+      	<li><a href='/a/zixuekaoshi/' ><span>自学考试</span></a></li>
+      	
+      	<li><a href='/a/peixunzhongxin/' ><span>培训中心</span></a></li>
+      	
+      	<li><a href='/a/jiaoxuefuwu/' ><span>教学服务</span></a></li>
+      	
+      	<li><a href='/a/lianxiwomen/' ><span>联系我们</span></a></li>
+      	
+    	</ul>
+    </div>	
+    <div class="search">
+      <form  name="formsearch" action="/plus/search.php">
+        <div class="form">
+          <h4>搜索</h4>
+           <input type="hidden" name="kwtype" value="0" />
+           <input name="q" type="text" class="search-keyword" id="search-keyword" value="在这里搜索..." onfocus="if(this.value=='在这里搜索...'){this.value='';}"  onblur="if(this.value==''){this.value='在这里搜索...';}" />
+           <select name="searchtype" class="search-option" id="search-option">
+               <option value="title" selected='1'>检索标题</option>
+               <option value="titlekeyword">智能模糊</option>
+           </select>
+          <button type="submit" class="search-submit">搜索</button>
+        </div>
+        </form>
+        <div class="tags">
+          <h4>热门标签:</h4>
+          <ul>
+          
+            <li><a href='/tags.php?/%E6%A0%A1%E5%9B%AD/'>校园</a></li>
+          
+            <li><a href='/tags.php?/%E7%90%83%E8%B5%9B/'>球赛</a></li>
+          
+            <li><a href='/tags.php?/%E9%A3%8E%E5%85%89%E6%97%A0%E9%99%90/'>风光无限</a></li>
+          
+            <li><a href='/tags.php?/%E5%8C%97%E4%BA%AC/'>北京</a></li>
+          
+            <li><a href='/tags.php?/%E5%90%89%E5%88%A9/'>吉利</a></li>
+          
+            <li><a href='/tags.php?/%E5%AD%A6%E9%99%A2/'>学院</a></li>
+          
+            <li><a href='/tags.php?/%E7%90%83%E6%8A%80/'>球技</a></li>
+          
+            <li><a href='/tags.php?/%E5%87%BA%E4%BC%97/'>出众</a></li>
+          
+            <li><a href='/tags.php?/%E6%A0%A1%E6%99%AF/'>校景</a></li>
+          
+            <li><a href='/tags.php?/%E9%AB%98%E6%A0%A1%E5%AD%A6%E7%94%9F/'>高校学生</a></li>
+          
+          </ul>
+        </div>
+    </div><!-- //search -->
+		</div>
+	</div>
+</div><!-- //header -->
+
+<!-- /header -->
+<div class="w960 center clear mt1">
+<div class="pleft">
+ <div class="place"> <strong>当前位置:</strong> <a href='http://localhost:82/'>主页</a> > <a href='/a/zhaoshenggongzuo/'>招生工作</a> > <a href='/a/zhaoshenggongzuo/zhengcefagui/'>政策法规</a> >  </div>
+ <!-- /place -->
+ <div class="viewbox">
+  <div class="title">
+   <h2> 大石化新区企业服务中心联合本报 开设专栏解读企业相关政策法规</h2>
+  </div>
+  <!-- /title -->
+  <div class="info"> <small>时间:</small>2016-05-21 13:21<small>来源:</small>网络整理 <small>作者:</small>采集侠 <small>点击:</small>
+   <script src="/plus/count.php?view=yes&aid=8&mid=1" type='text/javascript' language="javascript"></script>
+   次</div>
+  <!-- /info -->
+  
+  <div class="intro">大石化新区企业服务中心联合本报 开设专栏解读企业相关政策法规</div>
+  
+  <div class="content">
+   <table width='100%'>
+    <tr>
+     <td><div id="contentMidPicAD" style="float:right; clear:both; top:0; vertical-align:top;"></div>
+      <p>本报讯&nbsp;为进一步加强大石化新区企业服务工作，助推新区企业健康快速发展，即日起大石化新区企业服务中心将联合本报开设大石化新区企业服务专栏“大狮花告诉你”，为辖区企业普及专业知识，宣传新的政策法规等。</P><p>据了解，大石化新区企业服务中心为大石化新区管委会下属事业单位，通过政务服务、金融服务、楼宇服务和信息数据服务等四个专业化的服务平台，为新区企业入驻、运营、管理等提供服务。其中，政务服务主要为企业提供相关政策宣传、政策咨询、政策兑现等服务；金融服务通过搭建银企沟通平台，提供结算、融资、担保等服务；楼宇服务主要通过收集、整理、上报企业发展问题进行协调解决，同时提供会计、法律、人才等中介服务等；信息数据服务通过采集、统计、分析相关数据，为政府决策提供基础数据和分析资料。同时搭建企业间在线交流互动平台，提供政策查询、项目申请、信息发布等在线信息服务。</P><p>据悉，为打通企业服务“最后一公里”，大石化新区企业服务中心还拟在龙湖时代天街、总部城协信星光天地和化龙桥企业天地建3个党群服务中心（楼宇服务平台）。其中，龙湖时代天街和总部城协信星光天地党群服务中心预计8月建成投用，化龙桥企业天地党群服务中心预计今年底建成投用。届时，企业可到中心反映问题，咨询政策，寻求相关服务等。当然，辖区企业若有何问题咨询也可拨打大石化新区企业服务中心免费电话（400-100-2043）或大石化新区管委会企业服务科电话（023-63625792）咨询。</P><p>即日起，大石化新区企业服务中心联合本报开设的企业服务专栏，每月开设2期，每期都将有大石化新区企业服务中心与区金融办选择的10家顾问单位，为读者提供法务、财税、人力资源等专业知识小贴士。热报记者&nbsp;张春莲&nbsp;实习生&nbsp;余霞</P><p>专业知识小贴士:</P><p>营改增税负问题你该知道</P><p>今年《政府工作报告》明确要求，全面实施营改增。5月1日起，试点范围扩大到建筑业、房地产业、金融业、生活服务业。要确保所有行业税负只减不增。</P><p>为落实这一要求，国务院财税主管部门重点做了两方面工作：政策设计方面，按照营业税税负平移的方法测算确定了各试点行业的适用税率。同时，对4个行业原税收优惠政策原则上予以了延续，如对养老、医疗、教育、金融机构同业往来等继续实施免税，延续个人转让住房的征免税政策等；对老合同和老项目实行政策平转，如允许建筑工程老合同、房地产老项目选择适用简易计税方法计税等；对特定行业制定了过渡性优惠措施，如允许新开工的甲供材建筑工程选择简易计税、允许房地产开发企业扣除土地购置成本、对金融机构尚未收到的逾期贷款利息在实际收到时征税、对原适用3%税率的文化体育服务允许选择简易计税等；政策执行方面，财政部、税务总局布置各级财税部门要不折不扣落实好各项政策，确保政策落地。要求全面开展培训以及加强对试点运行情况的跟踪分析。</P><p>“营改增”关键时点</P><p>4月30日前，纳税人需根据当地主管国税机关安排办理登记、认定和发票领用等事项。</P><p>5月1日起，纳税人可以依法依规开具增值税发票，或申请代开增值税发票。</P><p>5月15日前，纳税人需向主管地税机关申报缴纳4月底以前的营业税。</P><p>6月27日前，纳税人需要根据当地主管国税机关的安排，申报缴纳增值税。</P><p>如果是实行按季缴纳营业税的纳税人，5月15日前，需向原主管地税机关申报缴纳4月底以前的营业税；7月15日前向主管国税机关申报缴纳5月、6月的增值税。</P><p>如果纳税人出售已取得的不动产和自然人出租不动产，5月1日起，仍向不动产所在地主管地税机关缴纳增值税。</P><p>（本条小贴士由大石化企业服务中心顾问单位重庆万隆方正会计师事务所有限责任公司提供）</P></p>
+      
+      (责任编辑：admin)</td>
+    </tr>
+   </table>
+  </div>
+  <!-- /content -->
+  <div class="dede_pages">
+   <ul class="pagelist">
+    
+   </ul>
+  </div>
+
+<center>  <a href='http://2v.dedecms.com/' id='__dedeqrcode_2'>织梦二维码生成器</a>
+  <script type="text/javascript">
+  	var __dedeqrcode_id=2;
+  	var __dedeqrcode_aid=8;
+  	var __dedeqrcode_type='arc';
+  	var __dedeqrcode_dir='/plus';
+  </script>
+  <script language="javascript" type="text/javascript" src="/plus/img/qrcode.js"></script></center>
+  
+  <!-- /pages -->
+  <!-- //顶踩 -->
+  <div class="newdigg" id="newdigg">
+   <div class="diggbox digg_good" onmousemove="this.style.backgroundPosition='left bottom';" onmouseout="this.style.backgroundPosition='left top';" onclick="javascript:postDigg('good',8)">
+    <div class="digg_act">顶一下</div>
+    <div class="digg_num">(0)</div>
+    <div class="digg_percent">
+     <div class="digg_percent_bar"><span style="width:0%"></span></div>
+     <div class="digg_percent_num">0%</div>
+    </div>
+   </div>
+   <div class="diggbox digg_bad" onmousemove="this.style.backgroundPosition='right bottom';" onmouseout="this.style.backgroundPosition='right top';" onclick="javascript:postDigg('bad',8)">
+    <div class="digg_act">踩一下</div>
+    <div class="digg_num">(0)</div>
+    <div class="digg_percent">
+     <div class="digg_percent_bar"><span style="width:0%"></span></div>
+     <div class="digg_percent_num">0%</div>
+    </div>
+   </div>
+  </div>
+  <script language="javascript" type="text/javascript">getDigg(8);</script>
+  <!-- //顶踩部份的源码结束 -->
+  <!-- //分享代码开始 -->
+  
+  <!-- //分享代码结束 -->
+  <div class="boxoff"> <strong>------分隔线----------------------------</strong> </div>
+  <div class="handle">
+   <div class="context">
+    <ul>
+     <li>上一篇：没有了 </li>
+     <li>下一篇：<a href='/a/zhaoshenggongzuo/zhengcefagui/9.html'>银行职业资格《法律法规》练习题：政策性银行（5.20）</a> </li>
+    </ul>
+   </div>
+   <!-- /context -->
+   <div class="actbox">
+    <ul>
+     <li id="act-fav"><a href="/plus/stow.php?aid=8" target="_blank">收藏</a></li>
+     <li id="act-err"><a href="/plus/erraddsave.php?aid=8&title= 大石化新区企业服务中心联合本报 开设专栏解读企业相关政策法规" target="_blank">挑错</a></li>
+     <li id="act-pus"><a href="/plus/recommend.php?aid=8" target="_blank">推荐</a></li>
+     <li id="act-pnt"><a href="#" onClick="window.print();">打印</a></li>
+    </ul>
+   </div>
+   <!-- /actbox -->
+  </div>
+  <!-- /handle -->
+ </div>
+ <!-- /viewbox -->
+ <!-- //AJAX评论区 -->
+ 
+ </div>
+<!-- //左边内容结束 -->
+<!-- //右边内容开始 -->
+<div class="pright"> 
+ <div class="pright">
+  <div>
+   <dl class="tbox">
+    <dt><strong>栏目列表</strong></dt>
+    <dd>
+     <ul class="d6">
+      
+      <li><a href='/a/zhaoshenggongzuo/xueyuangaikuang/'>学院概况</a></li>
+      
+      <li><a href='/a/zhaoshenggongzuo/xinshengzhinan/'>新生指南</a></li>
+      
+      <li><a href='/a/zaixianbaoming/'>在线报名</a></li>
+      
+      <li><a href='/a/zhaoshenggongzuo/jiuyexinxi/'>就业信息</a></li>
+      
+      <li><a href='/a/zhaoshenggongzuo/zhuanyejieshao/'>专业介绍</a></li>
+      
+      <li><a href='/a/zhaoshenggongzuo/zhaoshengxinxi/'>招生信息</a></li>
+      
+      <li><a href='/a/zhaoshenggongzuo/zhaoshengxuanchuan/'>招生宣传</a></li>
+      <li><a href='/a/zhaoshenggongzuo/zhengcefagui/' class='thisclass'>政策法规</a></li>
+      <li><a href='/a/zhaoshenggongzuo/zhaoshengwenda/'>招生问答</a></li>
+      
+      <li><a href='/a/zhaoshenggongzuo/zhaoshengjianzhang/'>招生简章</a></li>
+      
+     </ul>
+    </dd>
+   </dl>
+  </div>
+  <div id="contentRtPicAD" style="margin:10px auto"></div>
+  <div class="commend mt1">
+   <dl class="tbox light">
+    <dt class='light'><strong>推荐内容</strong></dt>
+    <dd class='light'>
+     <ul class="d4">
+      
+     </ul>
+    </dd>
+   </dl>
+  </div>
+  <!-- /commend -->
+  <div class="hot mt1">
+   <dl class="tbox light">
+    <dt class='light'><strong>热点内容</strong></dt>
+    <dd class='light'>
+     <ul class="c1 ico2">
+      <li><a href="/a/zhaoshenggongzuo/zhengcefagui/108.html">自考毕业生可落户武汉</a></li>
+<li><a href="/a/zhaoshenggongzuo/zhengcefagui/19.html">卫生政策法规重点：卫生</a></li>
+<li><a href="/a/zhaoshenggongzuo/zhengcefagui/13.html">民生银行：待政策法规成</a></li>
+<li><a href="/a/zhaoshenggongzuo/zhengcefagui/16.html">湖北崇阳一人大副主任车</a></li>
+<li><a href="/a/zhaoshenggongzuo/zhengcefagui/9.html">银行职业资格《法律法规</a></li>
+<li><a href="/a/zhaoshenggongzuo/zhengcefagui/18.html">“变、贪、腐、横集于一</a></li>
+<li><a href="/a/zhaoshenggongzuo/zhengcefagui/109.html">湖北高招政策出台 今年起</a></li>
+<li><a href="/a/zhaoshenggongzuo/zhengcefagui/20.html"><strong>【干货】细胞治疗怎么走</strong></a></li>
+<li><a href="/a/zhaoshenggongzuo/zhengcefagui/110.html">教育部中华全国总工会关</a></li>
+<li><a href="/a/zhaoshenggongzuo/zhengcefagui/8.html"> 大石化新区企业服务中心</a></li>
+
+     </ul>
+    </dd>
+   </dl>
+  </div>
+  <div id="contentRtPicAD2" style="margin:10px auto"></div>
+ </div>
+ <!-- /pright -->
+</div>
+<div id="innerfooterAD2" style="margin:10px auto; width:726px"></div>
+
+<!-- //底部模板 -->
+<div class="footer w960 center mt1 clear">
+	<!-- 
+		为了支持织梦团队的发展,请您保留织梦内容管理系统的链接信息.
+		我们对支持织梦团队发展的朋友表示真心的感谢!织梦因您更精彩!
+	-->
+    <div class="footer_left"></div>
+    <div class="footer_body">
+	<p class="powered">    
+		Powered by <a href="http://www.dedecms.com" title="织梦内容管理系统(DedeCms)--国内最专业的PHP网站管理系统，轻松建站的首选利器。" target="_blank"><strong>DedeCMS_V57_UTF8_SP1</strong></a> &copy; 2004-2011 <a href="http://www.desdev.cn/" target="_blank">DesDev</a> Inc.<br /><div class="copyright">Copyright &copy; 2004-2011 DEDECMS. 织梦科技 版权所有&nbsp;&nbsp;</div></p>        
+<!-- /powered -->
+   </div>
+   <div class="footer_right"></div>
+</div>
+<!-- /footer -->
+</body>
+</html>

@@ -1,0 +1,1 @@
+<a class="tit active news-tit" target="_blank" href="[field:typeurl/]" show="#index-news" more="[field:typeurl/]"></a>

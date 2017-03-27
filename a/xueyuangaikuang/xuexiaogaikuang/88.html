@@ -1,0 +1,363 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>学院概况_我的网站</title>
+<meta name="keywords" content="学院,概况,学校,概况,汉口,学院,创办于,2000年,是一" />
+<meta name="description" content="学校概况 汉口学院 创办于2000年，是一所经教育部批准的多学科、综合性的普通本科学校，由湖北省负责管理。始称华中师范大学汉口分校，2011年经湖北省人民政府申报，国家教育部批准更名为汉口学院，学院代码11800。 学院取名为汉口是因为2000年申报学校校址" />
+<link href="/templets/default/style/dedecms.css" rel="stylesheet" media="screen" type="text/css" />
+<meta http-equiv="mobile-agent" content="format=xhtml;url=/m/view.php?aid=88">
+<script type="text/javascript">if(window.location.toString().indexOf('pref=padindex') != -1){}else{if(/AppleWebKit.*Mobile/i.test(navigator.userAgent) || (/MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/.test(navigator.userAgent))){if(window.location.href.indexOf("?mobile")<0){try{if(/Android|Windows Phone|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)){window.location.href="/m/view.php?aid=88";}else if(/iPad/i.test(navigator.userAgent)){}else{}}catch(e){}}}}</script>
+<script language="javascript" type="text/javascript" src="/include/dedeajax2.js"></script>
+
+<script language="javascript" type="text/javascript">
+<!--
+function CheckLogin(){
+	  var taget_obj = document.getElementById('_ajax_feedback');
+	  myajax = new DedeAjax(taget_obj,false,false,'','','');
+	  myajax.SendGet2("/member/ajax_feedback.php");
+	  DedeXHTTP = null;
+}
+function postBadGood(ftype,fid)
+{
+	var taget_obj = document.getElementById(ftype+fid);
+	var saveid = GetCookie('badgoodid');
+	if(saveid != null)
+	{
+		var saveids = saveid.split(',');
+		var hasid = false;
+		saveid = '';
+		j = 1;
+		for(i=saveids.length-1;i>=0;i--)
+		{
+			if(saveids[i]==fid && hasid) continue;
+			else {
+				if(saveids[i]==fid && !hasid) hasid = true;
+				saveid += (saveid=='' ? saveids[i] : ','+saveids[i]);
+				j++;
+				if(j==10 && hasid) break;
+				if(j==9 && !hasid) break;
+			}
+		}
+		if(hasid) { alert('您刚才已表决过了喔！'); return false;}
+		else saveid += ','+fid;
+		SetCookie('badgoodid',saveid,1);
+	}
+	else
+	{
+		SetCookie('badgoodid',fid,1);
+	}
+	myajax = new DedeAjax(taget_obj,false,false,'','','');
+	myajax.SendGet2("/plus/feedback.php?aid="+fid+"&action="+ftype+"&fid="+fid);
+}
+function postDigg(ftype,aid)
+{
+	var taget_obj = document.getElementById('newdigg');
+	var saveid = GetCookie('diggid');
+	if(saveid != null)
+	{
+		var saveids = saveid.split(',');
+		var hasid = false;
+		saveid = '';
+		j = 1;
+		for(i=saveids.length-1;i>=0;i--)
+		{
+			if(saveids[i]==aid && hasid) continue;
+			else {
+				if(saveids[i]==aid && !hasid) hasid = true;
+				saveid += (saveid=='' ? saveids[i] : ','+saveids[i]);
+				j++;
+				if(j==20 && hasid) break;
+				if(j==19 && !hasid) break;
+			}
+		}
+		if(hasid) { alert("您已经顶过该帖，请不要重复顶帖 ！"); return; }
+		else saveid += ','+aid;
+		SetCookie('diggid',saveid,1);
+	}
+	else
+	{
+		SetCookie('diggid',aid,1);
+	}
+	myajax = new DedeAjax(taget_obj,false,false,'','','');
+	var url = "/plus/digg_ajax.php?action="+ftype+"&id="+aid;
+	myajax.SendGet2(url);
+}
+function getDigg(aid)
+{
+	var taget_obj = document.getElementById('newdigg');
+	myajax = new DedeAjax(taget_obj,false,false,'','','');
+	myajax.SendGet2("/plus/digg_ajax.php?id="+aid);
+	DedeXHTTP = null;
+}
+-->
+</script>
+</head>
+<body class="articleview">
+<div class="header_top">  
+    <div class="w960 center">  
+     <span id="time" class="time">织梦CMS - 轻松建站从此开始！</span>
+     <div class="toplinks"><a href="/plus/heightsearch.php" target="_blank">高级搜索</a>|<a href="/data/sitemap.html" target="_blank">网站地图</a>|<a href="/tags.php">TAG标签</a><a href="/data/rssmap.html" class="rss">RSS订阅</a><span>[<a href=""onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://localhost:82');">设为首页</a>] [<a href="javascript:window.external.AddFavorite('http://localhost:82','我的网站')">加入收藏</a>]</span></div>
+    </div> 
+</div>
+<div class="header">
+	<div class="top w960 center">
+      <div class="title">
+        <h1><a href="http://localhost:82"><img src="/templets/default/images/logo.gif" height="54" width="216" alt="我的网站"/></a> </h1>
+      </div>
+      <div class="banner"></div>
+      <div class="banner2"></div>
+       
+	</div><!-- //top -->
+	<!-- //菜单 -->
+	<div class="module blue mT10 wrapper w963">
+  	<div class="top">
+    	<!-- //如果不使用currentstyle，可以在channel标签加入 cacheid='channeltoplist' 属性提升性能 -->
+    <div id="navMenu">
+    	<ul>
+      	<li><a href='/'><span>主页</span></a></li>
+      	<li class='hover'><a href='/a/xueyuangaikuang/'  rel='dropmenu1'><span>学院概况</span></a></li>
+      	<li><a href='/a/jigoushezhi/' ><span>机构设置</span></a></li>
+      	
+      	<li><a href='/a/zhaoshenggongzuo/' ><span>招生工作</span></a></li>
+      	
+      	<li><a href='/a/zixuekaoshi/' ><span>自学考试</span></a></li>
+      	
+      	<li><a href='/a/peixunzhongxin/' ><span>培训中心</span></a></li>
+      	
+      	<li><a href='/a/jiaoxuefuwu/' ><span>教学服务</span></a></li>
+      	
+      	<li><a href='/a/lianxiwomen/' ><span>联系我们</span></a></li>
+      	
+    	</ul>
+    </div>	
+    <div class="search">
+      <form  name="formsearch" action="/plus/search.php">
+        <div class="form">
+          <h4>搜索</h4>
+           <input type="hidden" name="kwtype" value="0" />
+           <input name="q" type="text" class="search-keyword" id="search-keyword" value="在这里搜索..." onfocus="if(this.value=='在这里搜索...'){this.value='';}"  onblur="if(this.value==''){this.value='在这里搜索...';}" />
+           <select name="searchtype" class="search-option" id="search-option">
+               <option value="title" selected='1'>检索标题</option>
+               <option value="titlekeyword">智能模糊</option>
+           </select>
+          <button type="submit" class="search-submit">搜索</button>
+        </div>
+        </form>
+        <div class="tags">
+          <h4>热门标签:</h4>
+          <ul>
+          
+            <li><a href='/tags.php?/%E6%A0%A1%E5%9B%AD/'>校园</a></li>
+          
+            <li><a href='/tags.php?/%E7%90%83%E8%B5%9B/'>球赛</a></li>
+          
+            <li><a href='/tags.php?/%E9%A3%8E%E5%85%89%E6%97%A0%E9%99%90/'>风光无限</a></li>
+          
+            <li><a href='/tags.php?/%E5%8C%97%E4%BA%AC/'>北京</a></li>
+          
+            <li><a href='/tags.php?/%E5%90%89%E5%88%A9/'>吉利</a></li>
+          
+            <li><a href='/tags.php?/%E5%AD%A6%E9%99%A2/'>学院</a></li>
+          
+            <li><a href='/tags.php?/%E7%90%83%E6%8A%80/'>球技</a></li>
+          
+            <li><a href='/tags.php?/%E5%87%BA%E4%BC%97/'>出众</a></li>
+          
+            <li><a href='/tags.php?/%E6%A0%A1%E6%99%AF/'>校景</a></li>
+          
+            <li><a href='/tags.php?/%E9%AB%98%E6%A0%A1%E5%AD%A6%E7%94%9F/'>高校学生</a></li>
+          
+          </ul>
+        </div>
+    </div><!-- //search -->
+		</div>
+	</div>
+</div><!-- //header -->
+
+<!-- /header -->
+<div class="w960 center clear mt1">
+<div class="pleft">
+ <div class="place"> <strong>当前位置:</strong> <a href='http://localhost:82/'>主页</a> > <a href='/a/xueyuangaikuang/'>学院概况</a> > <a href='/a/xueyuangaikuang/xuexiaogaikuang/'>学校概况</a> >  </div>
+ <!-- /place -->
+ <div class="viewbox">
+  <div class="title">
+   <h2>学院概况</h2>
+  </div>
+  <!-- /title -->
+  <div class="info"> <small>时间:</small>2016-05-24 11:40<small>来源:</small>未知 <small>作者:</small>admin <small>点击:</small>
+   <script src="/plus/count.php?view=yes&aid=88&mid=1" type='text/javascript' language="javascript"></script>
+   次</div>
+  <!-- /info -->
+  
+  <div class="intro">学校概况 汉口学院 创办于2000年，是一所经教育部批准的多学科、综合性的普通本科学校，由湖北省负责管理。始称华中师范大学汉口分校，2011年经湖北省人民政府申报，国家教育部批准更名为汉口学院，学院代码11800。 学院取名为汉口是因为2000年申报学校校址</div>
+  
+  <div class="content">
+   <table width='100%'>
+    <tr>
+     <td><div id="contentMidPicAD" style="float:right; clear:both; top:0; vertical-align:top;"></div>
+      <h2 class="sec-tit" style="text-align: center;">
+	学校概况</h2>
+<strong><span style="color:#000000;font-size:15px;">&nbsp; 汉口学院</span></strong><span style="font-size:14px;">创办于2000年，是一所经教育部批准的多学科、综合性的普通本科学校，由湖北省负责管理。始称华中师范大学汉口分校，2011年经湖北省人民政府申报，国家教育部批准更名为汉口学院，学院代码11800。</span>
+<p>
+	<span style="font-size:15px;">&nbsp; &nbsp; &nbsp;学院取名为&ldquo;汉口&rdquo;是因为2000年申报学校校址在汉口，2003年学校最终选址在江夏，汉口曾是中国的直辖市，是武汉市的旧称，是近代中国商业、金融、物流的发祥地，学院取名&ldquo;汉口&rdquo;，有为地方经济和城市发展培养人才的理念。</span></p>
+<p>
+	<span style="font-size:15px;"><strong>【校园环境】</strong>&nbsp; 学院坐落在风景秀丽的汤逊湖畔，校园占地905亩，建筑面积28万平方米，校园环境优雅大气，教学区、行政区、生活区、运动区、休闲区功能齐备，布局合 理，品味高雅，氛围和谐。大气稳重的建筑设计，赏心悦目的园林风格，充分体现丰厚的文化底蕴。校内绿树成荫，四季花开，廊亭水榭、假山雕塑点缀其中，令人 心旷神怡，是读书治学的理想园地。</span></p>
+<p>
+	<span style="font-size:15px;"><strong>【学科建设】 </strong>学院建有管理学院、外国语学院、 文学院、信息科学与技术学院、电子信息与通讯工程学院、经济学院、艺术设计学院、法学院、音乐学院、电气工程与自动化学院、旅游学院，继续教育学院、国际 学院、思政课部、数学课部、体育课部等十三院三部，坚持&ldquo;结构合理、重点突出、特色鲜明，优势互补、相互支撑&rdquo;的学科建设思路，形成了涵盖管理学、文学、 工学、经济学、法学、教育学等6大学科门类21个本科专业，15 个专科专业。</span></p>
+<p>
+	<span style="font-size:15px;"><strong>【教育教学】 </strong>学院坚持把培养具有创新精神和 实践能力的高素质应用型本科人才作为人才培养的基本定位,构建通识教育、专业教育和特色教育三级课程体系，已形成以本科学历教育为主，高职教育、继续教育 协调发展的高等教育办学体系。学院现有各类在校学生20408人，其中全日制普通本专科学生11014人，国家自学考试学生9340人，国际班学生54 人。学院实行弹性学制和学分制教学管理制度，以适应学生自主学习、全面发展的需要。2010年和2011年分别接受湖北省本科教学工作水平评估和全国高等 学校设置评议委员会专家组考核评议均获得高度评价。 学院《大学计算机基础》被评为湖北省精品课程，&ldquo;电子信息工程专业&rdquo;被列为省级重点培育本科专业。 近5年来，学院学生在大学生电子设计竞赛、&ldquo;挑战杯&rdquo;发明竞赛、数学建模竞赛、大学生英语、艺术竞赛等全国全省各类重大竞赛中，共有1700余人次获 奖，2010年参加&ldquo;数学建模竞赛&rdquo;获两个国家二等奖，取得全省同类院校第一名的好成绩。参加湖北省&ldquo;挑战杯&rdquo;大学生课外学术科技作品竞赛、湖北省大学生 艺术节获&ldquo;优秀组织奖&rdquo;，创同类院校优异成绩。学院还积极鼓励学生再深造近，五年来，有600多人考取全国重点大学研究生，曾有一寝室四女生全部考取研究 生被媒体誉为&ldquo;考研四朵金花&rdquo;。学院坚持设立奖、助学金，2010年资助奖励学生2010人次，资助奖励金额341.64万元。</span></p>
+<p>
+	<span style="font-size:15px;"><strong>【师资力量】</strong> 学院坚持改善结构、提高素质、培养团队、成就名师的师资队伍建设方针，通过引进、培养、使用等多种形式，建立一支学术水平较高，职称、学历、年龄结构合理 的专任教师队伍。现有专任教师651人，其中具有副高及以上专业技术职称者251人，占专任教师的38.5%，具有研究生学历者349人，占专任教师的 53.6%；有3位教师享受国务院特殊津贴，聘请2名院士为学院客座教授。五年来，学院教师出版学术专著和高校教材98部，完成涵盖理、工、文、管等多个 学科门类的科研项目32项，获得省、市级以上各种奖项150多项。</span></p>
+<p>
+	<span style="font-size:15px;"><strong>【办学条件】 </strong>学院已有教学仪器设备总值 5292.49万元，建有专业实验室73个，其中BVCOM视频通讯教学研究基地、嵌入式系统、国际结算、数字音频采编等重点实验室32个，可开设实验项 目1750多个，实验开出率95%以上。学校建有教学视听、语音实验室10个，座位数724个；建有多媒体教室56间，座位数10290个；多功能的音乐 楼有琴房148间，钢琴115台，图书馆建筑面积2.68万平方米，馆藏图书110.36万册，电子图书5200GB，各种期刊1500多种；学生固定实 习基地70个，学生实习实践情况良好。</span></p>
+<p>
+	<span style="font-size:15px;"><strong>【对外交流】</strong> 学院积极开展对外合作与交流，先后与美国纽约大学、德国柏林工业大学、韩国青云大学、美国伊利诺州大学芝加哥分校、法国凡尔赛国立音乐学院、英国伯明翰大 学等10余所国外高校建立友好校际联系，进行学术交流，并通过展开&ldquo;2+2&rdquo;、&ldquo;2+3&rdquo;等全方位多层次的合作，联合培养本硕学生。学院常年聘请外国专 家、学者来校讲学和任教，建立了由学校资助的教师赴国外合作学校访问、进修或进行学术交流的机制，促进学院人才培养质量和教师学术水平的提高。</span></p>
+<p>
+	<span style="font-size:15px;"><strong>【校园文化】 </strong>学院注重大学生综合素质教育，每 年举办大学生文化节、科技节、体育节和艺术节，注重发挥社会实践和&ldquo;第二课堂&rdquo;的育人功能，积极开展丰富多彩的校园文化活动，满足学生提高综合素质的要 求，涌现出&ldquo;全国十佳社团联合会&rdquo;、&ldquo;全国百强社团&rdquo;等一批杰出的校园文化活动团体，学院&ldquo;旭日合唱团&rdquo;一举摘取第七届意大利日瓦国际合唱节最高奖项特别 奖和两项金奖，成为第一个获此殊荣的中国合唱团。学院先后被中国民办教育家协会、中国教育家联合会、新华社《中国名牌》杂志等单位评为&ldquo;全国十佳独立学 院&rdquo;、&ldquo;中国十大名牌独立学院&rdquo;、&ldquo;中国民办十大知名品牌学校&rdquo;，荣获&ldquo;全国爱国主义教育成就勋章&rdquo;等荣誉，是全省民办高校唯一党建试点单位，全国团建试 点单位。</span></p>
+<p>
+	<span style="font-size:15px;">&nbsp;&nbsp;&nbsp; 学院建设和发展得到了各级党政领导的高度重视和关心。国务院总理温家宝、中共中央政治局委员俞正声、中共湖北省委书记李鸿忠、中共湖北省委统战部部长苏晓 云、湖北省人民政府常务副省长李宪生、湖北省人民政府副省长郭生练等对学院建设和发展均给予过帮助，各级政府部门领导也多次到学院视察、指导工作。</span></p>
+<p>
+	<span style="font-size:15px;">&nbsp;&nbsp;&nbsp; 在高等教育大众化和国际化的发展趋势下，汉口学院将继承办学传统，创新教育模式，坚持依法冶教，从严冶学，不断提高管理科学化、规范化水平，努力提高办学质量和效益，学院师生员工团结一心，发奋图强，向着建设国内优秀大学的目标不断前进！ </span></p>
+
+      
+      (责任编辑：admin)</td>
+    </tr>
+   </table>
+  </div>
+  <!-- /content -->
+  <div class="dede_pages">
+   <ul class="pagelist">
+    
+   </ul>
+  </div>
+
+<center>  <a href='http://2v.dedecms.com/' id='__dedeqrcode_13'>织梦二维码生成器</a>
+  <script type="text/javascript">
+  	var __dedeqrcode_id=13;
+  	var __dedeqrcode_aid=88;
+  	var __dedeqrcode_type='arc';
+  	var __dedeqrcode_dir='/plus';
+  </script>
+  <script language="javascript" type="text/javascript" src="/plus/img/qrcode.js"></script></center>
+  
+  <!-- /pages -->
+  <!-- //顶踩 -->
+  <div class="newdigg" id="newdigg">
+   <div class="diggbox digg_good" onmousemove="this.style.backgroundPosition='left bottom';" onmouseout="this.style.backgroundPosition='left top';" onclick="javascript:postDigg('good',88)">
+    <div class="digg_act">顶一下</div>
+    <div class="digg_num">(0)</div>
+    <div class="digg_percent">
+     <div class="digg_percent_bar"><span style="width:0%"></span></div>
+     <div class="digg_percent_num">0%</div>
+    </div>
+   </div>
+   <div class="diggbox digg_bad" onmousemove="this.style.backgroundPosition='right bottom';" onmouseout="this.style.backgroundPosition='right top';" onclick="javascript:postDigg('bad',88)">
+    <div class="digg_act">踩一下</div>
+    <div class="digg_num">(0)</div>
+    <div class="digg_percent">
+     <div class="digg_percent_bar"><span style="width:0%"></span></div>
+     <div class="digg_percent_num">0%</div>
+    </div>
+   </div>
+  </div>
+  <script language="javascript" type="text/javascript">getDigg(88);</script>
+  <!-- //顶踩部份的源码结束 -->
+  <!-- //分享代码开始 -->
+  
+  <!-- //分享代码结束 -->
+  <div class="boxoff"> <strong>------分隔线----------------------------</strong> </div>
+  <div class="handle">
+   <div class="context">
+    <ul>
+     <li>上一篇：没有了 </li>
+     <li>下一篇：没有了 </li>
+    </ul>
+   </div>
+   <!-- /context -->
+   <div class="actbox">
+    <ul>
+     <li id="act-fav"><a href="/plus/stow.php?aid=88" target="_blank">收藏</a></li>
+     <li id="act-err"><a href="/plus/erraddsave.php?aid=88&title=学院概况" target="_blank">挑错</a></li>
+     <li id="act-pus"><a href="/plus/recommend.php?aid=88" target="_blank">推荐</a></li>
+     <li id="act-pnt"><a href="#" onClick="window.print();">打印</a></li>
+    </ul>
+   </div>
+   <!-- /actbox -->
+  </div>
+  <!-- /handle -->
+ </div>
+ <!-- /viewbox -->
+ <!-- //AJAX评论区 -->
+ 
+ </div>
+<!-- //左边内容结束 -->
+<!-- //右边内容开始 -->
+<div class="pright"> 
+ <div class="pright">
+  <div>
+   <dl class="tbox">
+    <dt><strong>栏目列表</strong></dt>
+    <dd>
+     <ul class="d6">
+      <li><a href='/a/xueyuangaikuang/xuexiaogaikuang/' class='thisclass'>学校概况</a></li>
+      <li><a href='/a/xueyuangaikuang/xueyuantongzhi/'>学院通知</a></li>
+      
+      <li><a href='/a/xueyuangaikuang/xiaoyuanditu/'>校园地图</a></li>
+      
+      <li><a href='/a/xueyuangaikuang/xiaoyuanfengguang/'>校园风光</a></li>
+      
+      <li><a href='/a/xueyuangaikuang/yuantongxunlu/'>院通讯录</a></li>
+      
+      <li><a href='/a/xueyuangaikuang/xueyuanrongyu/'>学院荣誉</a></li>
+      
+     </ul>
+    </dd>
+   </dl>
+  </div>
+  <div id="contentRtPicAD" style="margin:10px auto"></div>
+  <div class="commend mt1">
+   <dl class="tbox light">
+    <dt class='light'><strong>推荐内容</strong></dt>
+    <dd class='light'>
+     <ul class="d4">
+      
+     </ul>
+    </dd>
+   </dl>
+  </div>
+  <!-- /commend -->
+  <div class="hot mt1">
+   <dl class="tbox light">
+    <dt class='light'><strong>热点内容</strong></dt>
+    <dd class='light'>
+     <ul class="c1 ico2">
+      <li><a href="/a/xueyuangaikuang/xuexiaogaikuang/88.html">学院概况</a></li>
+
+     </ul>
+    </dd>
+   </dl>
+  </div>
+  <div id="contentRtPicAD2" style="margin:10px auto"></div>
+ </div>
+ <!-- /pright -->
+</div>
+<div id="innerfooterAD2" style="margin:10px auto; width:726px"></div>
+
+<!-- //底部模板 -->
+<div class="footer w960 center mt1 clear">
+	<!-- 
+		为了支持织梦团队的发展,请您保留织梦内容管理系统的链接信息.
+		我们对支持织梦团队发展的朋友表示真心的感谢!织梦因您更精彩!
+	-->
+    <div class="footer_left"></div>
+    <div class="footer_body">
+	<p class="powered">    
+		Powered by <a href="http://www.dedecms.com" title="织梦内容管理系统(DedeCms)--国内最专业的PHP网站管理系统，轻松建站的首选利器。" target="_blank"><strong>DedeCMS_V57_UTF8_SP1</strong></a> &copy; 2004-2011 <a href="http://www.desdev.cn/" target="_blank">DesDev</a> Inc.<br /><div class="copyright">Copyright &copy; 2004-2011 DEDECMS. 织梦科技 版权所有&nbsp;&nbsp;</div></p>        
+<!-- /powered -->
+   </div>
+   <div class="footer_right"></div>
+</div>
+<!-- /footer -->
+</body>
+</html>

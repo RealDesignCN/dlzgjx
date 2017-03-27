@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{dede:global.cfg_webname/}</title>
+<meta name="description" content="{dede:global.cfg_description/}" />
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" id="viewport"/>
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+<meta content="telephone=no" name="format-detection" />
+<script type="text/javascript" src="/dede58m/js/jquery.js"></script>
+<script type="text/javascript" src="/dede58m/js/zj.util.js"></script>
+<script type="text/javascript" language="javascript">
+
+    jQuery(function () {
+
+        addNodeHits();
+
+        addContentHits();
+
+        addProductHits();
+
+    });
+
+	$("#viewport").attr("content","user-scalable=0,initial-scale="+($(window).width()/320)+"");
+
+</script>
+<link rel="stylesheet" href="/dede58m/css/flexslider.css" type="text/css" media="screen" />
+<script src="/dede58m/js/modernizr.js"></script>
+<link rel="stylesheet" href="/dede58m/css/style.css" />
+</head>
+
+<body>
+{dede:include filename="head_m.htm"/}
+<div class="sy_pro">
+  <ul>
+    <li>
+      <div class="photo"> <a href='list.php?tid=3'> <img src="/dede58m/img/20131217184721029.png"  width="74" height="74" /></a></div>
+      <p class="name"> <a href='/about/'>学校简介</a></p>
+    </li>
+    <li>
+      <div class="photo"> <a href='list.php?tid=16'> <img src="/dede58m/img/20131217183811191.png"  width="74" height="74" /></a></div>
+      <p class="name"> <a href='/baoming/'>网上报名</a></p>
+    </li>
+    <li>
+      <div class="photo"> <a href='list.php?tid=6'> <img src="/dede58m/img/20131217183826806.png"  width="74" height="74" /></a></div>
+      <p class="name"> <a href='/fengguang/'>校园风光</a></p>
+    </li>
+    <li>
+      <div class="photo"> <a href='list.php?tid=10'> <img src="/dede58m/img/20131217183841127.png"  width="74" height="74" /></a></div>
+      <p class="name"> <a href='/wendangyi/'>校企共建</a></p>
+    </li>
+    <li>
+      <div class="photo"> <a href='list.php?tid=15'> <img src="/dede58m/img/20131217184246578.png"  width="74" height="74" /></a></div>
+      <p class="name"> <a href='/zhinan/'>报考指南</a></p>
+    </li>
+    <li>
+      <div class="photo"> <a href='list.php?tid=33'> <img src="/dede58m/img/20131217183911251.png"  width="74" height="74" /></a></div>
+      <p class="name"> <a href='/contact/'>联系我们</a></p>
+    </li>
+  </ul>
+</div>
+{dede:include filename="footer_m.htm"/}
+</body>
+</html>

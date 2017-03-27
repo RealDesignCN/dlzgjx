@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+<title>{dede:global.cfg_webname/}</title>
+<meta name="description" content="{dede:global.cfg_description/}" />
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<meta name="author" content="order by dede58.com" />
+<link href='/dede58/css/cslg2013h.css' rel='stylesheet' type='text/css'>
+<link rel='Shortcut Icon' href='ico.ico'>
+</head>
+
+<body id='index-page'>
+<!-- css 背景图片 -->
+<div style="display:none;"> <img src='/dede58/img/cslg2013_03.png' alt=''> <img src='/dede58/img/cslg2013_05d.png' alt=''> <img src='/dede58/img/cslg2013_08ag.png' alt=''> <img src='/dede58/img/cslg2013_08bg.png' alt=''> <img src='/dede58/img/cslg2013_08c.png' alt=''> <img src='/dede58/img/cslg2013_12g.png' alt=''> <img src='/dede58/img/cslg2013_13.png' alt=''> <img src='/dede58/img/cslg2013_17.png' alt=''> <img src='/dede58/img/cslg2013_20.png' alt=''> <img src='/dede58/img/cslg2013-cata-01.png' alt=''> <img src='/dede58/img/cslg2013-cata_03.png' alt=''> <img src='/dede58/img/cslg2013-cata_04.png' alt=''> <img src='/dede58/img/cslg2013-gk_05.png' alt=''> <img src='/dede58/img/cslg2013-icond.png' alt=''> <img src='/dede58/img/cslg2013-index.png' alt=''> <img src='/dede58/img/cslg2013-titg.png' alt=''> <img src='/dede58/img/nav-mid-bj.jpg' alt=''> </div>
+{dede:include filename="head.htm"/}
+<!-- nav -->
+<div class="pic-box">
+  <div id="focus-show-box">
+    <ul id="focus-box">
+      {dede:arclist row='4' titlelen='20' orderby='pubdate' typeid='20'　flag='f'  type='image.'}
+      <li><a target="_blank" href="[field:arcurl/]"><img src="[field:litpic/]" alt="[field:title/]" width="1024px" height="322px"></a></li>
+      {/dede:arclist}
+    </ul>
+  </div>
+  <!-- focus-show-box -->
+  <div class="inner-nav"> {dede:type typeid='16'} <a href="[field:typeurl/]" class="nn n1">[field:typename/]</a>{/dede:type}
+    {dede:type typeid='31'} <a href="[field:typeurl/]" class="nn n2">[field:typename/]</a>{/dede:type} <a title="点击这里给我发消息" href="http://wpa.qq.com/msgrd?v=3&uin={dede:global.cfg_company_qq/}&site=qq&menu=yes" target="_blank" class="nn n3">在线咨询</a> <a href="{dede:global.cfg_cjcx/}" target="_blank" class="nn n4">录取查询</a> </div>
+  <!-- inner-nav -->
+</div>
+<!-- pic-boc -->
+</div>
+<!-- nav-pic-bg -->
+
+<div id="main-wrapper">
+<div id="main-box">
+<div class="left">
+  <h2 class="index-tit"><a class="more" href="{dede:type typeid='9'}[field:typeurl/]{/dede:type}" target="_blank"></a><span class="tit"></span></h2>
+  <div id="notice-box-wrapper">
+    <div id="notice-show-box">
+      <div id="notice-box" class="hm-list">
+        <ul class="notice-list">
+          {dede:arclist row='5' titlelen='120' orderby='pubdate' typeid='9' }
+          <li><span>[field:pubdate   function=mydate('m-d',@me)/]</span><a target="_blank" href="[field:arcurl/]" title="[field:title/]">[field:title/]</a></li>
+          {/dede:arclist}
+        </ul>
+        <ul class="notice-list">
+          {dede:arclist row='5' titlelen='120' orderby='pubdate' typeid='9'  limit='6,5'}
+          <li><span>[field:pubdate   function=mydate('m-d',@me)/]</span><a target="_blank" href="[field:arcurl/]" title="[field:title/]">[field:title/]</a></li>
+          {/dede:arclist}
+        </ul>
+        <ul class="notice-list">
+          {dede:arclist row='5' titlelen='120' orderby='pubdate' typeid='9'  limit='11,5'}
+          <li><span>[field:pubdate   function=mydate('m-d',@me)/]</span><a target="_blank" href="[field:arcurl/]" title="[field:title/]">[field:title/]</a></li>
+          {/dede:arclist}
+        </ul>
+        <ul class="notice-list" style="display:none;">
+          {dede:arclist row='5' titlelen='120' orderby='pubdate' typeid='9'  limit='16,5'}
+          <li><span>[field:pubdate   function=mydate('m-d',@me)/]</span><a target="_blank" href="[field:arcurl/]" title="[field:title/]">[field:title/]</a></li>
+          {/dede:arclist}
+        </ul>
+      </div>
+    </div>
+    <div id="arr-box" class="hm-icon"><a class="active" href="#">1</a><a href="#">2</a><a href="#">3</a><a href="#">4</a></div>
+  </div>
+  <a target="_blank" href="javascript:void(0);" id="email-enter"><img src='/dede58/img/cslg2013_35.png' alt=''></a> </div>
+<!-- left -->
+<div class="right">
+<div class="rleft">
+<h2 class="index-tit">{dede:type typeid='14'}<a class="more xww" href="[field:typeurl/]" target="_blank"><b>学院新闻中心</b></a>{/dede:type}
+  {dede:type typeid='9'}<a class="tit active news-tit" target="_blank" href="[field:typeurl/]" show="#index-news" more="[field:typeurl/]"></a>{/dede:type}
+  {dede:type typeid='14'}<a class="tit media-tit" target="_blank" href="[field:typeurl/]" show="#index-media" more="[field:typeurl/]"></a>{/dede:type} </h2>
+<div id="pic-news-box">
+<ul id="pic-news">
+{dede:arclist row='4' titlelen='20' orderby='pubdate' typeid=''  type='image.'}
+<li><a target="_blank" href="[field:arcurl/]"><img src='[field:litpic/]' alt='[field:title/]'></a>
+  <p>[field:title/]</p>
+</li>
+{/dede:arclist}  /ul>
+</div>
+<!-- pic-news-box -->
+<div>
+  <div id="index-news">
+    <div class="top-news"> {dede:arclist row='2' titlelen='100' orderby='rand' typeid='9'}
+      <div class="item"> <a target="_blank" href="[field:arcurl/]" title="[field:title/]">[field:title/]</a>
+        <p>[field:description function='cn_substr(@me,125)'/]</p>
+      </div>
+      {/dede:arclist} </div>
+    <!-- top-news -->
+    <ul class="news-list">
+      {dede:arclist row='5' titlelen='120' orderby='pubdate' typeid='9' }
+      <li><span>[field:pubdate   function=mydate('Y-m-d',@me)/]</span><a target="_blank" href="[field:arcurl/]" title="[field:title/]">[field:title/]</a></li>
+      {/dede:arclist}
+    </ul>
+  </div>
+  <!-- index-news -->
+  <div id="index-media">
+    <div class="top-news"> {dede:arclist row='2' titlelen='100' orderby='rand' typeid='20,21'}
+      <div class="item"> <a target="_blank" href="[field:arcurl/]" title="[field:title/]">[field:title/]</a>
+        <p>[field:description function='cn_substr(@me,125)'/]</p>
+      </div>
+      {/dede:arclist} </div>
+    <!-- top-news -->
+    <ul class="news-list">
+      {dede:arclist row='5' titlelen='120' orderby='rand' typeid='20,21' }
+      <li><span>[field:pubdate   function=mydate('Y-m-d',@me)/]</span><a target="_blank" href="[field:arcurl/]" title="[field:title/]">[field:title/]</a></li>
+      {/dede:arclist}
+    </ul>
+  </div>
+  <!-- index-media -->
+</div>
+<!-- news content and media content -->
+</div>
+<!-- rleft -->
+<div class="rright">
+
+  <!-- 最新关注 -->
+  <div id="lc-box">
+    <h2 class="index-tit"><a class="more" href="#"></a><span class="tit lc-tit"></span></h2>
+    <div class="lc-list"> <a href="{dede:global.cfg_cjcx/}" alt="自考成绩查询"><img src="/dede58/img/1462439103.png"></a> <a href="#" alt="3"><img src="/dede58/img/1462438999.png"></a> <a href="#" alt="2"><img src="/dede58/img/1462439162.png"></a> </div>
+  </div>
+  <!-- lc-box --><!-- 最新关注 -->
+
+  <!-- 学术活动 -->
+  <h2 class="index-tit"><a class="more" href="{dede:type typeid='15'}[field:typeurl/]{/dede:type}" target="_blank"></a><span class="tit aa-tit"></span></h2>
+  <ul class="aa-list">
+    {dede:arclist row='4' titlelen='60' orderby='pubdate' typeid='15'}
+    <li><a target="_blank" href="[field:arcurl/]" title="[field:title/]">[field:title/]</a></li>
+    {/dede:arclist}
+  </ul>
+  <!-- aa-list -->
+
+</div>
+<!-- rright -->
+</div>
+<!-- right -->
+
+<div class="clear"></div>
+{dede:include filename="zy.htm"/}
+<div class="clear"></div>
+<div style="margin-top:10px;"><img src="/dede58/img/xyfj.jpg" width="105" height="28" /></div>
+<script type="text/javascript" src="/dede58/js/jquery.js"></script>
+<script type="text/javascript" src="/dede58/js/jquery.SuperSlide.2.1.1.js"></script>
+<div class="picMarquee-left">
+  <div class="bd">
+    <ul class="picList">
+      {dede:arclist row='10' titlelen='20' orderby='pubdate' typeid='6'  type='image.'}
+      <li>
+        <div class="pic"><a href="[field:arcurl/]" title="[field:title/]"><img src="[field:litpic/]" border="0" width="140" height="100" class="group1" title="[field:title/]" height="100"></a></div>
+        <div class="title"><a href="[field:arcurl/]" title="[field:title/]">[field:title/]</a></div>
+      </li>
+      {/dede:arclist}
+    </ul>
+  </div>
+</div>
+<script type="text/javascript">
+		jQuery(".picMarquee-left").slide({mainCell:".bd ul",autoPlay:true,effect:"leftMarquee",vis:5,interTime:50});
+		</script>
+<div class="clear footer-split"></div>
+{dede:include filename="footer.htm"/}
+</body>
+</html>

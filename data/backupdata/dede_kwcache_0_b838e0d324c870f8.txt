@@ -1,0 +1,2 @@
+INSERT INTO `dede_kwcache` VALUES('190','6','http://bj.aoshu.com/e/20160509/5730379c0e2d3.shtml');
+INSERT INTO `dede_kwcache` VALUES('191','6','http://www.jntimes.cn/jiaoyu/yejy/2016/0428/159710.shtml');

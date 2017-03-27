@@ -1,0 +1,1 @@
+<a href="[field:typeurl/]">>更多</a></span><strong>[field:typename/]</strong>

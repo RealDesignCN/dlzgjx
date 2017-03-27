@@ -1,0 +1,869 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>教育政策您了解吗？_我的网站</title>
+<meta name="keywords" content="教育政策,了解,自考,成教,网络教育,都是,供给,成人,继续" />
+<meta name="description" content="自考、成教、网络教育都是提供给成人继续教育学习的形式。网络教育和成人教育（都是 专科）需要参加全国统一组织的考试获得学籍，很多双证班和技能班等各种形式的办学就属此类。它们属于严进宽出，很容易拿到毕业证，但是文凭含金量不高，在 国内难以获得普" />
+<link href="/templets/default/style/dedecms.css" rel="stylesheet" media="screen" type="text/css" />
+<meta http-equiv="mobile-agent" content="format=xhtml;url=/m/view.php?aid=102">
+<script type="text/javascript">if(window.location.toString().indexOf('pref=padindex') != -1){}else{if(/AppleWebKit.*Mobile/i.test(navigator.userAgent) || (/MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/.test(navigator.userAgent))){if(window.location.href.indexOf("?mobile")<0){try{if(/Android|Windows Phone|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)){window.location.href="/m/view.php?aid=102";}else if(/iPad/i.test(navigator.userAgent)){}else{}}catch(e){}}}}</script>
+<script language="javascript" type="text/javascript" src="/include/dedeajax2.js"></script>
+
+<script language="javascript" type="text/javascript">
+<!--
+function CheckLogin(){
+	  var taget_obj = document.getElementById('_ajax_feedback');
+	  myajax = new DedeAjax(taget_obj,false,false,'','','');
+	  myajax.SendGet2("/member/ajax_feedback.php");
+	  DedeXHTTP = null;
+}
+function postBadGood(ftype,fid)
+{
+	var taget_obj = document.getElementById(ftype+fid);
+	var saveid = GetCookie('badgoodid');
+	if(saveid != null)
+	{
+		var saveids = saveid.split(',');
+		var hasid = false;
+		saveid = '';
+		j = 1;
+		for(i=saveids.length-1;i>=0;i--)
+		{
+			if(saveids[i]==fid && hasid) continue;
+			else {
+				if(saveids[i]==fid && !hasid) hasid = true;
+				saveid += (saveid=='' ? saveids[i] : ','+saveids[i]);
+				j++;
+				if(j==10 && hasid) break;
+				if(j==9 && !hasid) break;
+			}
+		}
+		if(hasid) { alert('您刚才已表决过了喔！'); return false;}
+		else saveid += ','+fid;
+		SetCookie('badgoodid',saveid,1);
+	}
+	else
+	{
+		SetCookie('badgoodid',fid,1);
+	}
+	myajax = new DedeAjax(taget_obj,false,false,'','','');
+	myajax.SendGet2("/plus/feedback.php?aid="+fid+"&action="+ftype+"&fid="+fid);
+}
+function postDigg(ftype,aid)
+{
+	var taget_obj = document.getElementById('newdigg');
+	var saveid = GetCookie('diggid');
+	if(saveid != null)
+	{
+		var saveids = saveid.split(',');
+		var hasid = false;
+		saveid = '';
+		j = 1;
+		for(i=saveids.length-1;i>=0;i--)
+		{
+			if(saveids[i]==aid && hasid) continue;
+			else {
+				if(saveids[i]==aid && !hasid) hasid = true;
+				saveid += (saveid=='' ? saveids[i] : ','+saveids[i]);
+				j++;
+				if(j==20 && hasid) break;
+				if(j==19 && !hasid) break;
+			}
+		}
+		if(hasid) { alert("您已经顶过该帖，请不要重复顶帖 ！"); return; }
+		else saveid += ','+aid;
+		SetCookie('diggid',saveid,1);
+	}
+	else
+	{
+		SetCookie('diggid',aid,1);
+	}
+	myajax = new DedeAjax(taget_obj,false,false,'','','');
+	var url = "/plus/digg_ajax.php?action="+ftype+"&id="+aid;
+	myajax.SendGet2(url);
+}
+function getDigg(aid)
+{
+	var taget_obj = document.getElementById('newdigg');
+	myajax = new DedeAjax(taget_obj,false,false,'','','');
+	myajax.SendGet2("/plus/digg_ajax.php?id="+aid);
+	DedeXHTTP = null;
+}
+-->
+</script>
+</head>
+<body class="articleview">
+<div class="header_top">  
+    <div class="w960 center">  
+     <span id="time" class="time">织梦CMS - 轻松建站从此开始！</span>
+     <div class="toplinks"><a href="/plus/heightsearch.php" target="_blank">高级搜索</a>|<a href="/data/sitemap.html" target="_blank">网站地图</a>|<a href="/tags.php">TAG标签</a><a href="/data/rssmap.html" class="rss">RSS订阅</a><span>[<a href=""onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://localhost:82');">设为首页</a>] [<a href="javascript:window.external.AddFavorite('http://localhost:82','我的网站')">加入收藏</a>]</span></div>
+    </div> 
+</div>
+<div class="header">
+	<div class="top w960 center">
+      <div class="title">
+        <h1><a href="http://localhost:82"><img src="/templets/default/images/logo.gif" height="54" width="216" alt="我的网站"/></a> </h1>
+      </div>
+      <div class="banner"></div>
+      <div class="banner2"></div>
+       
+	</div><!-- //top -->
+	<!-- //菜单 -->
+	<div class="module blue mT10 wrapper w963">
+  	<div class="top">
+    	<!-- //如果不使用currentstyle，可以在channel标签加入 cacheid='channeltoplist' 属性提升性能 -->
+    <div id="navMenu">
+    	<ul>
+      	<li><a href='/'><span>主页</span></a></li>
+      	
+      	<li><a href='/a/xueyuangaikuang/'  rel='dropmenu1'><span>学院概况</span></a></li>
+      	
+      	<li><a href='/a/jigoushezhi/' ><span>机构设置</span></a></li>
+      	<li class='hover'><a href='/a/zhaoshenggongzuo/' ><span>招生工作</span></a></li>
+      	<li><a href='/a/zixuekaoshi/' ><span>自学考试</span></a></li>
+      	
+      	<li><a href='/a/peixunzhongxin/' ><span>培训中心</span></a></li>
+      	
+      	<li><a href='/a/jiaoxuefuwu/' ><span>教学服务</span></a></li>
+      	
+      	<li><a href='/a/lianxiwomen/' ><span>联系我们</span></a></li>
+      	
+    	</ul>
+    </div>	
+    <div class="search">
+      <form  name="formsearch" action="/plus/search.php">
+        <div class="form">
+          <h4>搜索</h4>
+           <input type="hidden" name="kwtype" value="0" />
+           <input name="q" type="text" class="search-keyword" id="search-keyword" value="在这里搜索..." onfocus="if(this.value=='在这里搜索...'){this.value='';}"  onblur="if(this.value==''){this.value='在这里搜索...';}" />
+           <select name="searchtype" class="search-option" id="search-option">
+               <option value="title" selected='1'>检索标题</option>
+               <option value="titlekeyword">智能模糊</option>
+           </select>
+          <button type="submit" class="search-submit">搜索</button>
+        </div>
+        </form>
+        <div class="tags">
+          <h4>热门标签:</h4>
+          <ul>
+          
+            <li><a href='/tags.php?/%E6%A0%A1%E5%9B%AD/'>校园</a></li>
+          
+            <li><a href='/tags.php?/%E7%90%83%E8%B5%9B/'>球赛</a></li>
+          
+            <li><a href='/tags.php?/%E9%A3%8E%E5%85%89%E6%97%A0%E9%99%90/'>风光无限</a></li>
+          
+            <li><a href='/tags.php?/%E5%8C%97%E4%BA%AC/'>北京</a></li>
+          
+            <li><a href='/tags.php?/%E5%90%89%E5%88%A9/'>吉利</a></li>
+          
+            <li><a href='/tags.php?/%E5%AD%A6%E9%99%A2/'>学院</a></li>
+          
+            <li><a href='/tags.php?/%E7%90%83%E6%8A%80/'>球技</a></li>
+          
+            <li><a href='/tags.php?/%E5%87%BA%E4%BC%97/'>出众</a></li>
+          
+            <li><a href='/tags.php?/%E6%A0%A1%E6%99%AF/'>校景</a></li>
+          
+            <li><a href='/tags.php?/%E9%AB%98%E6%A0%A1%E5%AD%A6%E7%94%9F/'>高校学生</a></li>
+          
+          </ul>
+        </div>
+    </div><!-- //search -->
+		</div>
+	</div>
+</div><!-- //header -->
+
+<!-- /header -->
+<div class="w960 center clear mt1">
+<div class="pleft">
+ <div class="place"> <strong>当前位置:</strong> <a href='http://localhost:82/'>主页</a> > <a href='/a/zhaoshenggongzuo/'>招生工作</a> > <a href='/a/zhaoshenggongzuo/zhaoshengxuanchuan/'>招生宣传</a> >  </div>
+ <!-- /place -->
+ <div class="viewbox">
+  <div class="title">
+   <h2>教育政策您了解吗？</h2>
+  </div>
+  <!-- /title -->
+  <div class="info"> <small>时间:</small>2016-05-24 15:52<small>来源:</small>未知 <small>作者:</small>admin <small>点击:</small>
+   <script src="/plus/count.php?view=yes&aid=102&mid=1" type='text/javascript' language="javascript"></script>
+   次</div>
+  <!-- /info -->
+  
+  <div class="intro">自考、成教、网络教育都是提供给成人继续教育学习的形式。网络教育和成人教育（都是 专科）需要参加全国统一组织的考试获得学籍，很多双证班和技能班等各种形式的办学就属此类。它们属于严进宽出，很容易拿到毕业证，但是文凭含金量不高，在 国内难以获得普</div>
+  
+  <div class="content">
+   <table width='100%'>
+    <tr>
+     <td><div id="contentMidPicAD" style="float:right; clear:both; top:0; vertical-align:top;"></div>
+      <span style="font-size:16px;">自考、成教、网络教育都是提供给成人继续教育学习的形式。网络教育和成人教育（都是 专科）需要参加全国统一组织的考试获得学籍，很多双证班和技能班等各种形式的办学就属此类。它们属于严进宽出，很容易拿到毕业证，但是文凭含金量不高，在 国内难以获得普遍认可，在国外，文凭更是不被承认。自学考试属于宽进严出的范畴，含金量较高，美国、英国等37个国家都高度的认可并承认我国的自学考试文 凭。</span><br />
+<p>
+	<span style="font-size:16px;">&nbsp;&nbsp;&nbsp; 自学考试在湖北发展为两种学习形式，第一种是原始的自学考试形式，它是面向成人的一种业余学习形式，在全国区、县教育局招办报名，在市、县、区参加全国统 一组织的自学考试（湖北自学考试全部在地级市参加），它与成教和网络教育一样只能先进行专科学习，再专升本，它没有学年限制（被业内人士称为长线自考或者 社会自考，它不像汉口学院本科助学班一样一次性本科注册），个人或机构多数以部属重点高校（见下表）举办的自考名称上可能称为助学班但只能参加市、县、区 组织的自考。</span></p>
+<p>
+	<span style="font-size:16px;">&nbsp;&nbsp;&nbsp; 第二种称为助学班，它的招生、学习、住宿和考试与统招完全一样，它是在社会自考基础上发展起来的，是一种全日制学习模式，招收的对象是参加高考达到专科分 数以上的学生，学籍在教育考试院注册（而统招学生学籍是在省招办注册）。举办全日制助学班，高校需要每年向教育考试院申请，它所批专业和人数要经过严格的 审查批准后才能招生（所谓的双证班或就业班不属于此类，双证班和就业班就是为了回避教育部门的审查而举办的，名义上承诺包就业等）。助学班分为本科和专 科，专科需要教育厅审批（今年起社会自考、成教、网络教育、电大等业余学习的专科毕业生不能衔接高校举办的专升本），本科需要教育部审批，助学班的学习形 式受到教育厅和举办高校双重管理（目前这种特色办学模式只有湖北），助学班不同于社会自考，它是由高校组织在高校内进行全日制、全脱产的学习考试形式，只 面对应届高考毕业生（特别要说明的是它不是一种业余学习形式，汉口学院对于助学班的学生严格管理，与统招生享受同等待遇）。为了减轻学生考试中部分学科的 难度，各主办高校有权根据学生的在校表现进行打分，对难度大的学科转换为沟通课程，沟通课程成绩的评定由学生的在校表现决定（学校表现占40%）。</span></p>
+<p>
+	<span style="font-size:16px;">&nbsp;&nbsp;&nbsp; 汉口学院本科助学班是2007年获教育部批准的全日制本科学习模式，助学班学生在汉口学院校内住宿、上课、考试，和统招生享受同等待遇（<strong>目前汉口学院本科助学班学生规模达到了湖北第一</strong>）。 某些高校将助学班举办权出让给个人或社会机构，或者租赁办学、联合办学，这些乱象造成了当前招生比较混乱，还有部分高校使用中介招生，虚假宣传、过高承 诺，这严重的影响了助学班办学的声誉，还有些个人或机构假借名牌大学的名誉进行欺骗性招生，造成了社会的不稳定。在武汉，媒体经常曝光某些以武大、中南财 大、华师、理工大等重点高校的名义进行欺骗性的招生行为。</span></p>
+<p>
+	<span style="font-size:16px;">&nbsp;&nbsp;&nbsp; 根据教育部2007年4月11日发布的9号文件《<strong>教育部关于进一步加强部属高等学校成人高等教育和继续教育管理的通知</strong>》规定，教育部部属院校从2007年秋季开始不能以全日制的形式招收自考、网络教育、成人教育、电大、函授等学生，也不能与其它机构合作举办上述脱产班 </span></p>
+<p>
+	&nbsp;</p>
+<table align="center" bgcolor="#e3e3e3" border="0" cellpadding="0" cellspacing="1" class="ke-zeroborder">
+	<tbody>
+		<tr>
+			<td align="center" bgcolor="#ffffff" colspan="4" height="56">
+				<strong><span style="font-size:18px;">&ldquo;211&rdquo;工程大学名单(截止到2011年3月31日)</span></strong></td>
+		</tr>
+		<tr>
+			<td align="center" bgcolor="#ffffff" height="153" rowspan="9" width="93">
+				北京(26所)</td>
+			<td bgcolor="#ffffff" height="25" width="149">
+				清华大学&nbsp;</td>
+			<td bgcolor="#ffffff" width="221">
+				北京大学&nbsp;</td>
+			<td bgcolor="#ffffff" width="226">
+				中国人民大学</td>
+		</tr>
+		<tr>
+			<td bgcolor="#ffffff" height="25">
+				北京工业大学</td>
+			<td bgcolor="#ffffff">
+				北京理工大学</td>
+			<td bgcolor="#ffffff">
+				北京航空航天大学</td>
+		</tr>
+		<tr>
+			<td bgcolor="#ffffff" height="25">
+				北京化工大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				北京邮电大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				对外经济贸易大学</td>
+		</tr>
+		<tr>
+			<td bgcolor="#ffffff" height="25">
+				中国传媒大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				中央民族大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				中国矿业大学(北京)</td>
+		</tr>
+		<tr>
+			<td bgcolor="#ffffff" height="25">
+				中央财经大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				中国政法大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				中国石油大学(北京)</td>
+		</tr>
+		<tr>
+			<td bgcolor="#ffffff" height="25">
+				中央音乐学院&nbsp;&nbsp;</td>
+			<td bgcolor="#ffffff">
+				北京体育大学</td>
+			<td bgcolor="#ffffff">
+				北京外国语大学&nbsp;</td>
+		</tr>
+		<tr>
+			<td bgcolor="#ffffff" height="25">
+				北京交通大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				北京科技大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				北京林业大学</td>
+		</tr>
+		<tr>
+			<td bgcolor="#ffffff" height="25">
+				中国农业大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				北京中医药大学</td>
+			<td bgcolor="#ffffff">
+				华北电力大学(北京)&nbsp;</td>
+		</tr>
+		<tr>
+			<td bgcolor="#ffffff" height="25">
+				北京师范大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				中国地质大学(北京)&nbsp;</td>
+			<td bgcolor="#ffffff">
+				&nbsp;</td>
+		</tr>
+		<tr>
+			<td align="center" bgcolor="#ffffff" height="51" rowspan="3">
+				上海(9所)</td>
+			<td bgcolor="#ffffff" height="25">
+				复旦大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				华东师范大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				上海外国语大学&nbsp;</td>
+		</tr>
+		<tr>
+			<td bgcolor="#ffffff" height="25">
+				上海大学</td>
+			<td bgcolor="#ffffff">
+				同济大学</td>
+			<td bgcolor="#ffffff">
+				华东理工大学</td>
+		</tr>
+		<tr>
+			<td bgcolor="#ffffff" height="25">
+				东华大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				上海财经大学</td>
+			<td bgcolor="#ffffff">
+				上海交通大学&nbsp;</td>
+		</tr>
+		<tr>
+			<td align="center" bgcolor="#ffffff" height="34" rowspan="2">
+				天津(4所)</td>
+			<td bgcolor="#ffffff" height="25">
+				南开大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				天津大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				天津医科大学&nbsp;</td>
+		</tr>
+		<tr>
+			<td bgcolor="#ffffff" height="25">
+				河北工业大学</td>
+			<td bgcolor="#ffffff">
+				&nbsp;</td>
+			<td bgcolor="#ffffff">
+				&nbsp;</td>
+		</tr>
+		<tr>
+			<td align="center" bgcolor="#ffffff" height="17">
+				重庆(2所)</td>
+			<td bgcolor="#ffffff" height="25">
+				重庆大学</td>
+			<td bgcolor="#ffffff">
+				西南大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				&nbsp;</td>
+		</tr>
+		<tr>
+			<td align="center" bgcolor="#ffffff" height="17">
+				保定(1所)</td>
+			<td bgcolor="#ffffff" height="25">
+				华北电力大学(保定)</td>
+			<td bgcolor="#ffffff">
+				&nbsp;</td>
+			<td bgcolor="#ffffff">
+				&nbsp;</td>
+		</tr>
+		<tr>
+			<td align="center" bgcolor="#ffffff" height="17">
+				太原(1所)</td>
+			<td bgcolor="#ffffff" height="25">
+				太原理工大学</td>
+			<td bgcolor="#ffffff">
+				&nbsp;</td>
+			<td bgcolor="#ffffff">
+				&nbsp;</td>
+		</tr>
+		<tr>
+			<td align="center" bgcolor="#ffffff" height="17">
+				包头(1所)</td>
+			<td bgcolor="#ffffff" height="25">
+				内蒙古大学</td>
+			<td bgcolor="#ffffff">
+				&nbsp;</td>
+			<td bgcolor="#ffffff">
+				&nbsp;</td>
+		</tr>
+		<tr>
+			<td align="center" bgcolor="#ffffff" height="34" rowspan="2">
+				辽宁(4所)</td>
+			<td bgcolor="#ffffff" height="25">
+				大连理工大学（大连）</td>
+			<td bgcolor="#ffffff">
+				东北大学 （沈阳）</td>
+			<td bgcolor="#ffffff">
+				辽宁大学 （沈阳）</td>
+		</tr>
+		<tr>
+			<td bgcolor="#ffffff" height="25">
+				大连海事大学（大连）</td>
+			<td bgcolor="#ffffff">
+				&nbsp;</td>
+			<td bgcolor="#ffffff">
+				&nbsp;</td>
+		</tr>
+		<tr>
+			<td align="center" bgcolor="#ffffff" height="17">
+				吉林(3所)</td>
+			<td bgcolor="#ffffff" height="25">
+				吉林大学 （长春）</td>
+			<td bgcolor="#ffffff">
+				东北师范大学（长春）</td>
+			<td bgcolor="#ffffff">
+				延边大学（延吉）</td>
+		</tr>
+		<tr>
+			<td align="center" bgcolor="#ffffff" height="34" rowspan="2">
+				哈尔滨(4所)</td>
+			<td bgcolor="#ffffff" height="25">
+				东北农业大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				东北林业大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				哈尔滨工业大学&nbsp;</td>
+		</tr>
+		<tr>
+			<td bgcolor="#ffffff" height="25">
+				哈尔滨工程大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				&nbsp;</td>
+			<td bgcolor="#ffffff">
+				&nbsp;</td>
+		</tr>
+		<tr>
+			<td align="center" bgcolor="#ffffff" height="68" rowspan="4">
+				南京(11所)</td>
+			<td bgcolor="#ffffff" height="25">
+				南京大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				东南大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				苏州大学</td>
+		</tr>
+		<tr>
+			<td bgcolor="#ffffff" height="25">
+				河海大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				中国药科大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				中国矿业大学(徐州)&nbsp;&nbsp;</td>
+		</tr>
+		<tr>
+			<td bgcolor="#ffffff" height="25">
+				南京师范大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				南京理工大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				南京航空航天大学&nbsp;</td>
+		</tr>
+		<tr>
+			<td bgcolor="#ffffff" height="25">
+				江南大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				南京农业大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				&nbsp;</td>
+		</tr>
+		<tr>
+			<td align="center" bgcolor="#ffffff" height="17">
+				浙江(1所)</td>
+			<td bgcolor="#ffffff" height="25">
+				浙江大学 （杭州）</td>
+			<td bgcolor="#ffffff">
+				&nbsp;</td>
+			<td bgcolor="#ffffff">
+				&nbsp;</td>
+		</tr>
+		<tr>
+			<td align="center" bgcolor="#ffffff" height="17">
+				合肥(3所)&nbsp;</td>
+			<td bgcolor="#ffffff" height="25">
+				安徽大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				合肥工业大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				中国科学技术大学&nbsp;</td>
+		</tr>
+		<tr>
+			<td align="center" bgcolor="#ffffff" height="17">
+				福建(2所)</td>
+			<td bgcolor="#ffffff" height="25">
+				厦门大学 （厦门）</td>
+			<td bgcolor="#ffffff">
+				福州大学（福州）</td>
+			<td bgcolor="#ffffff">
+				&nbsp;</td>
+		</tr>
+		<tr>
+			<td align="center" bgcolor="#ffffff" height="17">
+				南昌(1所)</td>
+			<td bgcolor="#ffffff" height="25">
+				南昌大学</td>
+			<td bgcolor="#ffffff">
+				&nbsp;</td>
+			<td bgcolor="#ffffff">
+				&nbsp;</td>
+		</tr>
+		<tr>
+			<td align="center" bgcolor="#ffffff" height="17">
+				山东(3所)</td>
+			<td bgcolor="#ffffff" height="25">
+				山东大学（济南）&nbsp;</td>
+			<td bgcolor="#ffffff">
+				中国海洋大学 （青岛）</td>
+			<td bgcolor="#ffffff">
+				中国石油大学(华东) (青岛）&nbsp;</td>
+		</tr>
+		<tr>
+			<td align="center" bgcolor="#ffffff" height="17">
+				郑州(1所)&nbsp;</td>
+			<td bgcolor="#ffffff" height="25">
+				郑州大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				&nbsp;</td>
+			<td bgcolor="#ffffff">
+				&nbsp;</td>
+		</tr>
+		<tr>
+			<td align="center" bgcolor="#ffffff" height="51" rowspan="3">
+				武汉(7所)</td>
+			<td bgcolor="#ffffff" height="25">
+				武汉大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				华中科技大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				中国地质大学(武汉)&nbsp;&nbsp;</td>
+		</tr>
+		<tr>
+			<td bgcolor="#ffffff" height="25">
+				华中师范大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				华中农业大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				中南财经政法大学&nbsp;</td>
+		</tr>
+		<tr>
+			<td bgcolor="#ffffff" height="25">
+				武汉理工大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				中南民族大学（国家民委办）&nbsp;</td>
+			<td bgcolor="#ffffff">
+				&nbsp;</td>
+		</tr>
+		<tr>
+			<td align="center" bgcolor="#ffffff" height="34" rowspan="2">
+				长沙(4所)&nbsp;</td>
+			<td bgcolor="#ffffff" height="25">
+				湖南大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				中南大学</td>
+			<td bgcolor="#ffffff">
+				湖南师范大学&nbsp;</td>
+		</tr>
+		<tr>
+			<td bgcolor="#ffffff" height="25">
+				&nbsp;</td>
+			<td bgcolor="#ffffff">
+				&nbsp;</td>
+			<td bgcolor="#ffffff">
+				国防科学技术大学</td>
+		</tr>
+		<tr>
+			<td align="center" bgcolor="#ffffff" height="34" rowspan="2">
+				广东(4所)&nbsp;</td>
+			<td bgcolor="#ffffff" height="25">
+				中山大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				暨南大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				华南理工大学&nbsp;</td>
+		</tr>
+		<tr>
+			<td bgcolor="#ffffff" height="25">
+				华南师范大学</td>
+			<td bgcolor="#ffffff">
+				&nbsp;</td>
+			<td bgcolor="#ffffff">
+				&nbsp;</td>
+		</tr>
+		<tr>
+			<td align="center" bgcolor="#ffffff" height="17">
+				广西(1所)</td>
+			<td bgcolor="#ffffff" height="25">
+				广西大学</td>
+			<td bgcolor="#ffffff">
+				&nbsp;</td>
+			<td bgcolor="#ffffff">
+				&nbsp;</td>
+		</tr>
+		<tr>
+			<td align="center" bgcolor="#ffffff" height="34" rowspan="2">
+				四川(5所)&nbsp;</td>
+			<td bgcolor="#ffffff" height="25">
+				四川大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				西南交通大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				电子科技大学&nbsp;</td>
+		</tr>
+		<tr>
+			<td bgcolor="#ffffff" height="25">
+				西南财经大学</td>
+			<td bgcolor="#ffffff">
+				四川农业大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				&nbsp;</td>
+		</tr>
+		<tr>
+			<td align="center" bgcolor="#ffffff" height="17">
+				云南(1所)</td>
+			<td bgcolor="#ffffff" height="25">
+				云南大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				&nbsp;</td>
+			<td bgcolor="#ffffff">
+				&nbsp;</td>
+		</tr>
+		<tr>
+			<td align="center" bgcolor="#ffffff" height="17">
+				贵州(1所)</td>
+			<td bgcolor="#ffffff" height="25">
+				贵州大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				&nbsp;</td>
+			<td bgcolor="#ffffff">
+				&nbsp;</td>
+		</tr>
+		<tr>
+			<td align="center" bgcolor="#ffffff" height="51" rowspan="3">
+				西安(7所)</td>
+			<td bgcolor="#ffffff" height="25">
+				西北大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				西安交通大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				西北工业大学&nbsp;</td>
+		</tr>
+		<tr>
+			<td bgcolor="#ffffff" height="25">
+				陕西师范大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				西北农林科大&nbsp;</td>
+			<td bgcolor="#ffffff">
+				西安电子科技大学</td>
+		</tr>
+		<tr>
+			<td bgcolor="#ffffff" height="25">
+				长安大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				&nbsp;</td>
+			<td bgcolor="#ffffff">
+				&nbsp;</td>
+		</tr>
+		<tr>
+			<td align="center" bgcolor="#ffffff" height="17">
+				兰州(1所)</td>
+			<td bgcolor="#ffffff" height="25">
+				兰州大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				&nbsp;</td>
+			<td bgcolor="#ffffff">
+				&nbsp;</td>
+		</tr>
+		<tr>
+			<td align="center" bgcolor="#ffffff" height="17">
+				新疆(2所)</td>
+			<td bgcolor="#ffffff" height="25">
+				新疆大学</td>
+			<td bgcolor="#ffffff">
+				&nbsp;石河子大学</td>
+			<td bgcolor="#ffffff">
+				&nbsp;</td>
+		</tr>
+		<tr>
+			<td align="center" bgcolor="#ffffff" height="17">
+				海南(1所)</td>
+			<td bgcolor="#ffffff" height="25">
+				海南大学</td>
+			<td bgcolor="#ffffff">
+				&nbsp;</td>
+			<td bgcolor="#ffffff">
+				&nbsp;</td>
+		</tr>
+		<tr>
+			<td align="center" bgcolor="#ffffff" height="17">
+				银川(1所)</td>
+			<td bgcolor="#ffffff" height="25">
+				宁夏大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				&nbsp;</td>
+			<td bgcolor="#ffffff">
+				&nbsp;</td>
+		</tr>
+		<tr>
+			<td align="center" bgcolor="#ffffff" height="17">
+				青海(1所)</td>
+			<td bgcolor="#ffffff" height="25">
+				青海大学&nbsp;</td>
+			<td bgcolor="#ffffff">
+				&nbsp;</td>
+			<td bgcolor="#ffffff">
+				&nbsp;</td>
+		</tr>
+		<tr>
+			<td align="center" bgcolor="#ffffff" height="17">
+				拉萨(1所)</td>
+			<td bgcolor="#ffffff" height="25">
+				西藏大学</td>
+			<td bgcolor="#ffffff">
+				&nbsp;</td>
+			<td bgcolor="#ffffff">
+				&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+      
+      (责任编辑：admin)</td>
+    </tr>
+   </table>
+  </div>
+  <!-- /content -->
+  <div class="dede_pages">
+   <ul class="pagelist">
+    
+   </ul>
+  </div>
+
+<center>  <a href='http://2v.dedecms.com/' id='__dedeqrcode_7'>织梦二维码生成器</a>
+  <script type="text/javascript">
+  	var __dedeqrcode_id=7;
+  	var __dedeqrcode_aid=102;
+  	var __dedeqrcode_type='arc';
+  	var __dedeqrcode_dir='/plus';
+  </script>
+  <script language="javascript" type="text/javascript" src="/plus/img/qrcode.js"></script></center>
+  
+  <!-- /pages -->
+  <!-- //顶踩 -->
+  <div class="newdigg" id="newdigg">
+   <div class="diggbox digg_good" onmousemove="this.style.backgroundPosition='left bottom';" onmouseout="this.style.backgroundPosition='left top';" onclick="javascript:postDigg('good',102)">
+    <div class="digg_act">顶一下</div>
+    <div class="digg_num">(0)</div>
+    <div class="digg_percent">
+     <div class="digg_percent_bar"><span style="width:0%"></span></div>
+     <div class="digg_percent_num">0%</div>
+    </div>
+   </div>
+   <div class="diggbox digg_bad" onmousemove="this.style.backgroundPosition='right bottom';" onmouseout="this.style.backgroundPosition='right top';" onclick="javascript:postDigg('bad',102)">
+    <div class="digg_act">踩一下</div>
+    <div class="digg_num">(0)</div>
+    <div class="digg_percent">
+     <div class="digg_percent_bar"><span style="width:0%"></span></div>
+     <div class="digg_percent_num">0%</div>
+    </div>
+   </div>
+  </div>
+  <script language="javascript" type="text/javascript">getDigg(102);</script>
+  <!-- //顶踩部份的源码结束 -->
+  <!-- //分享代码开始 -->
+  
+  <!-- //分享代码结束 -->
+  <div class="boxoff"> <strong>------分隔线----------------------------</strong> </div>
+  <div class="handle">
+   <div class="context">
+    <ul>
+     <li>上一篇：<a href='/a/zhaoshenggongzuo/zhaoshengxuanchuan/101.html'>教育部文件 教高〔2007〕9号</a> </li>
+     <li>下一篇：<a href='/a/zhaoshenggongzuo/zhaoshengxuanchuan/103.html'>现在全日制本科助学班毕业生受到社会认可吗？</a> </li>
+    </ul>
+   </div>
+   <!-- /context -->
+   <div class="actbox">
+    <ul>
+     <li id="act-fav"><a href="/plus/stow.php?aid=102" target="_blank">收藏</a></li>
+     <li id="act-err"><a href="/plus/erraddsave.php?aid=102&title=教育政策您了解吗？" target="_blank">挑错</a></li>
+     <li id="act-pus"><a href="/plus/recommend.php?aid=102" target="_blank">推荐</a></li>
+     <li id="act-pnt"><a href="#" onClick="window.print();">打印</a></li>
+    </ul>
+   </div>
+   <!-- /actbox -->
+  </div>
+  <!-- /handle -->
+ </div>
+ <!-- /viewbox -->
+ <!-- //AJAX评论区 -->
+ 
+ </div>
+<!-- //左边内容结束 -->
+<!-- //右边内容开始 -->
+<div class="pright"> 
+ <div class="pright">
+  <div>
+   <dl class="tbox">
+    <dt><strong>栏目列表</strong></dt>
+    <dd>
+     <ul class="d6">
+      
+      <li><a href='/a/zhaoshenggongzuo/xueyuangaikuang/'>学院概况</a></li>
+      
+      <li><a href='/a/zhaoshenggongzuo/xinshengzhinan/'>新生指南</a></li>
+      
+      <li><a href='/a/zaixianbaoming/'>在线报名</a></li>
+      
+      <li><a href='/a/zhaoshenggongzuo/jiuyexinxi/'>就业信息</a></li>
+      
+      <li><a href='/a/zhaoshenggongzuo/zhuanyejieshao/'>专业介绍</a></li>
+      
+      <li><a href='/a/zhaoshenggongzuo/zhaoshengxinxi/'>招生信息</a></li>
+      <li><a href='/a/zhaoshenggongzuo/zhaoshengxuanchuan/' class='thisclass'>招生宣传</a></li>
+      <li><a href='/a/zhaoshenggongzuo/zhengcefagui/'>政策法规</a></li>
+      
+      <li><a href='/a/zhaoshenggongzuo/zhaoshengwenda/'>招生问答</a></li>
+      
+      <li><a href='/a/zhaoshenggongzuo/zhaoshengjianzhang/'>招生简章</a></li>
+      
+     </ul>
+    </dd>
+   </dl>
+  </div>
+  <div id="contentRtPicAD" style="margin:10px auto"></div>
+  <div class="commend mt1">
+   <dl class="tbox light">
+    <dt class='light'><strong>推荐内容</strong></dt>
+    <dd class='light'>
+     <ul class="d4">
+      
+     </ul>
+    </dd>
+   </dl>
+  </div>
+  <!-- /commend -->
+  <div class="hot mt1">
+   <dl class="tbox light">
+    <dt class='light'><strong>热点内容</strong></dt>
+    <dd class='light'>
+     <ul class="c1 ico2">
+      <li><a href="/a/zhaoshenggongzuo/zhaoshengxuanchuan/102.html">教育政策您了解吗？</a></li>
+<li><a href="/a/zhaoshenggongzuo/zhaoshengxuanchuan/23.html">首页大图 后台修改</a></li>
+<li><a href="/a/zhaoshenggongzuo/zhaoshengxuanchuan/22.html">首页大图</a></li>
+<li><a href="/a/zhaoshenggongzuo/zhaoshengxuanchuan/104.html">汉口学院自考本科有什么</a></li>
+<li><a href="/a/zhaoshenggongzuo/zhaoshengxuanchuan/101.html">教育部文件 教高〔2007〕</a></li>
+<li><a href="/a/zhaoshenggongzuo/zhaoshengxuanchuan/25.html">首页大图 可以后台设置带</a></li>
+<li><a href="/a/zhaoshenggongzuo/zhaoshengxuanchuan/24.html">首页大图2</a></li>
+<li><a href="/a/zhaoshenggongzuo/zhaoshengxuanchuan/103.html">现在全日制本科助学班毕</a></li>
+<li><a href="/a/zhaoshenggongzuo/zhaoshengxuanchuan/105.html">什么叫“全日制本科助学</a></li>
+
+     </ul>
+    </dd>
+   </dl>
+  </div>
+  <div id="contentRtPicAD2" style="margin:10px auto"></div>
+ </div>
+ <!-- /pright -->
+</div>
+<div id="innerfooterAD2" style="margin:10px auto; width:726px"></div>
+
+<!-- //底部模板 -->
+<div class="footer w960 center mt1 clear">
+	<!-- 
+		为了支持织梦团队的发展,请您保留织梦内容管理系统的链接信息.
+		我们对支持织梦团队发展的朋友表示真心的感谢!织梦因您更精彩!
+	-->
+    <div class="footer_left"></div>
+    <div class="footer_body">
+	<p class="powered">    
+		Powered by <a href="http://www.dedecms.com" title="织梦内容管理系统(DedeCms)--国内最专业的PHP网站管理系统，轻松建站的首选利器。" target="_blank"><strong>DedeCMS_V57_UTF8_SP1</strong></a> &copy; 2004-2011 <a href="http://www.desdev.cn/" target="_blank">DesDev</a> Inc.<br /><div class="copyright">Copyright &copy; 2004-2011 DEDECMS. 织梦科技 版权所有&nbsp;&nbsp;</div></p>        
+<!-- /powered -->
+   </div>
+   <div class="footer_right"></div>
+</div>
+<!-- /footer -->
+</body>
+</html>

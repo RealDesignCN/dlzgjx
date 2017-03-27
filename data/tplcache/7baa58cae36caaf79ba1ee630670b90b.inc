@@ -1,0 +1,1 @@
+<a class="more xww" href="[field:typeurl/]" target="_blank"><b>学院新闻中心</b></a>

@@ -1,0 +1,6 @@
+INSERT INTO `dede_addonshop17` VALUES('32','21','','0','0','','','','127.0.0.1','','0','0','0');
+INSERT INTO `dede_addonshop17` VALUES('33','21','','0','0','','','','127.0.0.1','','0','0','0');
+INSERT INTO `dede_addonshop17` VALUES('34','21','','0','0','','','','127.0.0.1','','0','0','0');
+INSERT INTO `dede_addonshop17` VALUES('125','13','','0','0','','','','127.0.0.1','/cpzs/2/128.html','0','0','0');
+INSERT INTO `dede_addonshop17` VALUES('126','13','','0','0','','','','127.0.0.1','/cpzs/2/128.html','0','0','0');
+INSERT INTO `dede_addonshop17` VALUES('127','13','','0','0','','','','127.0.0.1','/cpzs/2/128.html','0','0','0');

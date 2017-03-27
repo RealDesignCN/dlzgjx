@@ -1,0 +1,350 @@
+﻿/* 织梦58（dede58.com）做最好的织梦整站模板下载网站 */
+* {
+	margin: 0;
+	padding: 0;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+.rightad {
+}
+a {
+	color: #333;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+	color: #c00;
+}
+Img {
+	border: 0;
+	vertical-align: middle;
+}
+.clear {
+	clear: both
+}
+#link_6 {
+	background-image: none;
+}
+ul, ol {
+	list-style-type: none;
+}
+input, select {
+	vertical-align: middle;
+	font-size: 12px;
+	color: #666
+}
+.jianj {
+	margin-top: 10px;
+	position: relative;
+	height: 114px;
+	border: 1px solid #CCCCCC;
+}
+.jianj p {
+	position: absolute;
+	top: 12px;
+	right: 333px;
+	width: 623px;
+	float: left;
+	height: 91px;
+}
+.red {
+	color: #3455a2
+}
+.leftbox {
+	width: 710px;
+	float: left;
+}
+.right {
+	float: right;
+	width: 200px;
+	overflow: hidden;
+	background: #f2f2f2;
+	border: 1px #ddd solid;
+	padding-bottom: 5px;
+}
+.mtop {
+	margin-top: 10px;
+}
+.border {
+	border: 1px #ddd solid;
+}
+.qqbox {
+	margin-right: 10px;
+	height: 202px;
+}
+.qqbox p {
+	margin-top: 4px;
+}
+.title3 {
+	background: url(img/title3.jpg) repeat-x;
+	height: 28px;
+	line-height: 28px;
+	font-size: 12px;
+	color: #3455a2;
+	padding: 0 8px;
+}
+.title {
+	background: url(img/title.jpg) no-repeat left bottom;
+	font-size: 14px;
+	color: #3455a2;
+	padding-left: 10px;
+	padding-bottom: 2px;
+}
+.zylist table {
+	border-top: 1px #dedede solid;
+	border-right: 1px #dedede solid;
+}
+.zylist td, .zylist th {
+	padding: 3px 1px;
+	text-align: center;
+	border-bottom: 1px #dedede solid;
+	border-left: 1px #dedede solid;
+}
+.zylist th {
+	background: url(img/table_bg.gif) repeat-x;
+}
+.zylist a {
+	color: #c00;
+}
+.newbox {
+	padding: 12px 0 0 8px;
+	overflow: hidden;
+	_zoom: 1;
+}
+.newbox ul li {
+	border-bottom: 1px #ECECEC solid;
+	background: url(img/ico_t.jpg) no-repeat 0 10px;
+	padding-left: 12px;
+	height: 26px;
+	overflow: hidden;
+	width: 334px;
+	float: left;
+}
+.feiye {
+	overflow: hidden;
+	_zoom: 1;
+	overflow: hidden;
+	padding: 10px 0 10px 150px;
+}
+.feiye ul li {
+	display: inline;
+}
+.feiye ul li a {
+	margin-right: 8px;
+	padding: 3px 8px;
+	border: 1px #ddd solid;
+}
+.bot {
+	text-align: center;
+	padding-top: 10px;
+}
+.bot img {
+	margin-bottom: 10px;
+}
+.rnews strong {
+	font-size: 14px;
+}
+.newbox2 {
+	padding: 12px 8px 0 8px;
+	overflow: hidden;
+	_zoom: 1;
+}
+.newbox2 ul li {
+	border-bottom: 1px #ECECEC solid;
+	background: url(img/ico_t.jpg) no-repeat 0 10px;
+	padding-left: 12px;
+	height: 26px;
+	overflow: hidden;
+}
+.picbox {
+	overflow: hidden;
+	_zoom: 1;
+	width: 980px;
+	background: url(img/new-ico1.png) no-repeat 0 0;
+}
+.picbox ul {
+	display: block;
+	width: 1000px;
+	padding: 10px 0 10px 5px;
+}
+.picbox ul li {
+	float: left;
+	width: 161px;
+	text-align: center;
+}
+.picbox ul li img {
+	width: 133px;
+	height: 100px;
+}
+.picstyle {
+	border: 1px #dedede solid;
+	padding: 3px;
+}
+.showbox {
+	padding: 10px;
+}
+.showbox h2 {
+	font-size: 22px;
+	line-height: 60px;
+	text-align: center;
+	color: #3455a2;
+	font-weight: 100;
+	font-family: "????????????????????????";
+}
+.showfbt {
+	background: #f7f7f7;
+	line-height: 28px;
+	border-top: 1px #dedede solid;
+	text-align: center;
+}
+.showtxt {
+	font-size: 14px;
+	padding: 0px 0 10px 0px;
+	color: #333
+}
+.showtxt p {
+	margin-top: 10px;
+	line-height: 20px;
+}
+.showtxt a {
+	color: #0033CC;
+	text-decoration: underline;
+}
+.next {
+	background: #f7f7f7;
+	line-height: 28px;
+	border: 1px #dedede solid;
+	padding: 0 10px;
+	margin: 30px 0 30px;
+}
+.next span {
+	float: right;
+}
+.intro {
+	background: #f9f9f9;
+	border: 1px #dedede dashed;
+	padding: 5px 10px;
+	font-size: 12px;
+	margin-top: 15px;
+}
+#newsList {
+}
+#newsList ul {
+	margin-top: 20px;
+}
+#newsList ul li {
+	padding-left: 20px;
+	padding-right: 20px;
+	line-height: 40px;
+	border-bottom: 1px dotted #CCC;
+}
+#newsList ul li span {
+	float: right;
+	padding-right: 20px;
+}
+#zszy {
+	zoom: 1;
+	overflow: hidden;
+	background: url(img/table_bac.jpg) left top repeat-x;
+}
+#note-cont {
+	overflow: hidden;
+	text-align: left;
+	padding-left: 5px;
+	height: 271px;
+}
+#note-cont ul {
+	clear: both;
+}
+#note-cont ul li {
+	text-align: left;
+	clear: both;
+}
+span.items {
+	display: block;
+	float: left;
+	width: 147px;
+	height: 40px;
+	text-align: center;
+	line-height: 31px;
+	color: #E23206;
+	font-size: 14px;
+	font-weight: bold;
+}
+#note-cont span.items {
+	background-position: -50px center;
+	width: 87px;
+}
+a.more-info {
+	float: right;
+	line-height: 31px;
+	display: none;
+	margin-right: 10px;
+}
+div.content {
+	clear: both;
+}
+#newsList a {
+	font: "????????????????????????", Helvetica, sans-serif;
+	text-decoration: none;
+	color: #000;
+}
+#newsList a:hover {
+	color: #03c;
+	text-decoration: underline;
+}
+.picbox1 {
+}
+.picbox1 li {
+	float: left;
+	margin-right: 5px;
+}
+.dede_pages {
+}
+.dede_pages ul {
+	float: left;
+	padding: 12px 0px 12px 16px;
+}
+.dede_pages ul li {
+	float: left;
+	font-family: Tahoma;
+	line-height: 17px;
+	margin-right: 6px;
+	border: 1px solid #E9E9E9;
+}
+.dede_pages ul li a {
+	float: left;
+	padding: 2px 4px 2px;
+	color: #555;
+	display: block;
+}
+.dede_pages ul li a:hover {
+	color: #690;
+	text-decoration: none;
+	padding: 2px 4px 2px;
+}
+.dede_pages ul li.thisclass, .dede_pages ul li.thisclass a, .pagebox ul li.thisclass a:hover {
+	padding: 2px 4px 2px;
+}
+.dede_pages .pageinfo {
+	line-height: 21px;
+	padding: 12px 10px 12px 16px;
+	color: #999;
+}
+.dede_pages .pageinfo strong {
+	color: #555;
+	font-weight: normal;
+	margin: 0px 2px;
+}
+.return {
+	float: right
+}
+#tag_1 {
+}
+#tag_1 a {
+	color: #FFF;
+}
+#tag_1 a:hover {
+	color: #3455A2;
+	text-decoration: none;
+}

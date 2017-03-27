@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{dede:field.typename /}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" id="viewport"/>
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+<meta content="telephone=no" name="format-detection" />
+<script type="text/javascript" src="/dede58m/js/jquery.js"></script>
+<script type="text/javascript" src="/dede58m/js/zj.util.js"></script>
+<script type="text/javascript" language="javascript">
+
+    jQuery(function () {
+
+        addNodeHits();
+
+        addContentHits();
+
+        addProductHits();
+
+    });
+
+	$("#viewport").attr("content","user-scalable=0,initial-scale="+($(window).width()/320)+"");
+
+</script>
+<link rel="stylesheet" href="/dede58m/css/flexslider.css" type="text/css" media="screen" />
+<script src="/dede58m/js/modernizr.js"></script>
+<link rel="stylesheet" href="/dede58m/css/style.css" />
+</head>
+
+<body>
+{dede:include filename="head_m.htm"/}
+<div class="conter">
+  <div class="title"> {dede:field.typename /}</div>
+  <div class="danye">
+    <div style="color: rgb(34, 34, 34); font-size: 12px; line-height: normal;"> {dede:field.content/} </div>
+  </div>
+</div>
+{dede:include filename="footer_m.htm"/}
+</body>
+</html>

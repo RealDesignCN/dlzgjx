@@ -1,0 +1,35 @@
+<div class="header">
+  <div class="menu"> <img src="/dede58m/img/menutb_bg.png" width="22" height="16" /></div>
+  <div class="fhsyy"> <a href="javascript:history.go(-1);"> <img src="/dede58m/img/fhsyy.png" width="23" height="20" /></a></div>
+  <div class="logo"> <a href='/'>{dede:global.cfg_company_name/}</a></div>
+  <div class="submenu">
+    <ul>
+      <li><a href='/m'>网站首页</a></li>
+      {dede:channel type='top' row='10' }
+      <li><a href='list.php?tid=[field:id/]'>[field:typename/]</a></li>
+      {/dede:channel}
+    </ul>
+  </div>
+</div>
+<script type="text/javascript">
+
+    $(".menu").toggle(function () {
+
+        $(".submenu").slideDown("slow");
+
+    }, function () {
+
+        $(".submenu").slideUp("slow");
+
+    });
+
+</script>
+<div class="banner">
+  <section class="slider">
+    <div class="flexslider">
+      <ul class="slides">
+        <li><a href='tel:{dede:global.cfg_company_phone/}'><img src='/dede58m/img/1-150G1234340630.jpg'  alt="{dede:global.cfg_company_name/}" /></a></li>
+      </ul>
+    </div>
+  </section>
+</div>

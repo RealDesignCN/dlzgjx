@@ -1,0 +1,5 @@
+INSERT INTO `dede_kwkeyword` VALUES('1','6','校园风光','0','0','2','1463808110');
+INSERT INTO `dede_kwkeyword` VALUES('2','21','政策法规','0','0','2','1463808126');
+INSERT INTO `dede_kwkeyword` VALUES('3','12','招生办','0','0','5','1463825789');
+INSERT INTO `dede_kwkeyword` VALUES('5','15','{dede:charset}utf-8{/dede:charset}{dede:list}http://www.hkxyzk.cn/news.php?class_id=61{/dede:list}{dede:page}http://www.hkxyzk.cn/news_detail.php?id=(*){/dede:page}{dede:titlerule}{/dede:titlerule}{dede:authorrule}{/dede:authorrule}{dede:sourcerule}{/dede:sourcerule}{dede:bodyrule}<div class=\"sec-content-box\">[内容]<div class=\"bdsharebuttonbox\">{/dede:bodyrule}{dede:fyrule}{/dede:fyrule}','2','0','0','1463863552');
+INSERT INTO `dede_kwkeyword` VALUES('6','32','招生问答','0','0','3','1464033297');

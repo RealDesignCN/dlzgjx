@@ -1,0 +1,4 @@
+INSERT INTO `dede_search_keywords` VALUES('1','风光','风光','3','1','1463823630','0','0');
+INSERT INTO `dede_search_keywords` VALUES('2','ddd','ddd','1','0','1465649986','0','0');
+INSERT INTO `dede_search_keywords` VALUES('3','rtrrrrrr','rtrrrrrr rtrrrrrr','1','0','1465650412','0','0');
+INSERT INTO `dede_search_keywords` VALUES('4','dsfds','dsfds','1','0','1481099543','0','0');

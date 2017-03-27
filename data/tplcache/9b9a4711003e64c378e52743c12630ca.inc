@@ -1,0 +1,1 @@
+<a class="tit media-tit" target="_blank" href="[field:typeurl/]" show="#index-media" more="[field:typeurl/]"></a>

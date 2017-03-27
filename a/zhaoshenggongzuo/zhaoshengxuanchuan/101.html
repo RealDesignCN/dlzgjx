@@ -1,0 +1,376 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>教育部文件 教高〔2007〕9号_我的网站</title>
+<meta name="keywords" content="教育部,文件,教高,2007,9号,教育部,关于,进一步,加" />
+<meta name="description" content="教育部关于进一步加强部属高等学校成人高等教育和继续教育管理的通知 部属各高等学校： 多年来，部属高等学校成人高等教育和继续教育发展迅速并取得很大成绩，满足了人民群众接受高等教育的多样化需求，为社会主义现代化事业培养 了各类专门人才，推进了高等" />
+<link href="/templets/default/style/dedecms.css" rel="stylesheet" media="screen" type="text/css" />
+<meta http-equiv="mobile-agent" content="format=xhtml;url=/m/view.php?aid=101">
+<script type="text/javascript">if(window.location.toString().indexOf('pref=padindex') != -1){}else{if(/AppleWebKit.*Mobile/i.test(navigator.userAgent) || (/MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/.test(navigator.userAgent))){if(window.location.href.indexOf("?mobile")<0){try{if(/Android|Windows Phone|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)){window.location.href="/m/view.php?aid=101";}else if(/iPad/i.test(navigator.userAgent)){}else{}}catch(e){}}}}</script>
+<script language="javascript" type="text/javascript" src="/include/dedeajax2.js"></script>
+
+<script language="javascript" type="text/javascript">
+<!--
+function CheckLogin(){
+	  var taget_obj = document.getElementById('_ajax_feedback');
+	  myajax = new DedeAjax(taget_obj,false,false,'','','');
+	  myajax.SendGet2("/member/ajax_feedback.php");
+	  DedeXHTTP = null;
+}
+function postBadGood(ftype,fid)
+{
+	var taget_obj = document.getElementById(ftype+fid);
+	var saveid = GetCookie('badgoodid');
+	if(saveid != null)
+	{
+		var saveids = saveid.split(',');
+		var hasid = false;
+		saveid = '';
+		j = 1;
+		for(i=saveids.length-1;i>=0;i--)
+		{
+			if(saveids[i]==fid && hasid) continue;
+			else {
+				if(saveids[i]==fid && !hasid) hasid = true;
+				saveid += (saveid=='' ? saveids[i] : ','+saveids[i]);
+				j++;
+				if(j==10 && hasid) break;
+				if(j==9 && !hasid) break;
+			}
+		}
+		if(hasid) { alert('您刚才已表决过了喔！'); return false;}
+		else saveid += ','+fid;
+		SetCookie('badgoodid',saveid,1);
+	}
+	else
+	{
+		SetCookie('badgoodid',fid,1);
+	}
+	myajax = new DedeAjax(taget_obj,false,false,'','','');
+	myajax.SendGet2("/plus/feedback.php?aid="+fid+"&action="+ftype+"&fid="+fid);
+}
+function postDigg(ftype,aid)
+{
+	var taget_obj = document.getElementById('newdigg');
+	var saveid = GetCookie('diggid');
+	if(saveid != null)
+	{
+		var saveids = saveid.split(',');
+		var hasid = false;
+		saveid = '';
+		j = 1;
+		for(i=saveids.length-1;i>=0;i--)
+		{
+			if(saveids[i]==aid && hasid) continue;
+			else {
+				if(saveids[i]==aid && !hasid) hasid = true;
+				saveid += (saveid=='' ? saveids[i] : ','+saveids[i]);
+				j++;
+				if(j==20 && hasid) break;
+				if(j==19 && !hasid) break;
+			}
+		}
+		if(hasid) { alert("您已经顶过该帖，请不要重复顶帖 ！"); return; }
+		else saveid += ','+aid;
+		SetCookie('diggid',saveid,1);
+	}
+	else
+	{
+		SetCookie('diggid',aid,1);
+	}
+	myajax = new DedeAjax(taget_obj,false,false,'','','');
+	var url = "/plus/digg_ajax.php?action="+ftype+"&id="+aid;
+	myajax.SendGet2(url);
+}
+function getDigg(aid)
+{
+	var taget_obj = document.getElementById('newdigg');
+	myajax = new DedeAjax(taget_obj,false,false,'','','');
+	myajax.SendGet2("/plus/digg_ajax.php?id="+aid);
+	DedeXHTTP = null;
+}
+-->
+</script>
+</head>
+<body class="articleview">
+<div class="header_top">  
+    <div class="w960 center">  
+     <span id="time" class="time">织梦CMS - 轻松建站从此开始！</span>
+     <div class="toplinks"><a href="/plus/heightsearch.php" target="_blank">高级搜索</a>|<a href="/data/sitemap.html" target="_blank">网站地图</a>|<a href="/tags.php">TAG标签</a><a href="/data/rssmap.html" class="rss">RSS订阅</a><span>[<a href=""onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://localhost:82');">设为首页</a>] [<a href="javascript:window.external.AddFavorite('http://localhost:82','我的网站')">加入收藏</a>]</span></div>
+    </div> 
+</div>
+<div class="header">
+	<div class="top w960 center">
+      <div class="title">
+        <h1><a href="http://localhost:82"><img src="/templets/default/images/logo.gif" height="54" width="216" alt="我的网站"/></a> </h1>
+      </div>
+      <div class="banner"></div>
+      <div class="banner2"></div>
+       
+	</div><!-- //top -->
+	<!-- //菜单 -->
+	<div class="module blue mT10 wrapper w963">
+  	<div class="top">
+    	<!-- //如果不使用currentstyle，可以在channel标签加入 cacheid='channeltoplist' 属性提升性能 -->
+    <div id="navMenu">
+    	<ul>
+      	<li><a href='/'><span>主页</span></a></li>
+      	
+      	<li><a href='/a/xueyuangaikuang/'  rel='dropmenu1'><span>学院概况</span></a></li>
+      	
+      	<li><a href='/a/jigoushezhi/' ><span>机构设置</span></a></li>
+      	<li class='hover'><a href='/a/zhaoshenggongzuo/' ><span>招生工作</span></a></li>
+      	<li><a href='/a/zixuekaoshi/' ><span>自学考试</span></a></li>
+      	
+      	<li><a href='/a/peixunzhongxin/' ><span>培训中心</span></a></li>
+      	
+      	<li><a href='/a/jiaoxuefuwu/' ><span>教学服务</span></a></li>
+      	
+      	<li><a href='/a/lianxiwomen/' ><span>联系我们</span></a></li>
+      	
+    	</ul>
+    </div>	
+    <div class="search">
+      <form  name="formsearch" action="/plus/search.php">
+        <div class="form">
+          <h4>搜索</h4>
+           <input type="hidden" name="kwtype" value="0" />
+           <input name="q" type="text" class="search-keyword" id="search-keyword" value="在这里搜索..." onfocus="if(this.value=='在这里搜索...'){this.value='';}"  onblur="if(this.value==''){this.value='在这里搜索...';}" />
+           <select name="searchtype" class="search-option" id="search-option">
+               <option value="title" selected='1'>检索标题</option>
+               <option value="titlekeyword">智能模糊</option>
+           </select>
+          <button type="submit" class="search-submit">搜索</button>
+        </div>
+        </form>
+        <div class="tags">
+          <h4>热门标签:</h4>
+          <ul>
+          
+            <li><a href='/tags.php?/%E6%A0%A1%E5%9B%AD/'>校园</a></li>
+          
+            <li><a href='/tags.php?/%E7%90%83%E8%B5%9B/'>球赛</a></li>
+          
+            <li><a href='/tags.php?/%E9%A3%8E%E5%85%89%E6%97%A0%E9%99%90/'>风光无限</a></li>
+          
+            <li><a href='/tags.php?/%E5%8C%97%E4%BA%AC/'>北京</a></li>
+          
+            <li><a href='/tags.php?/%E5%90%89%E5%88%A9/'>吉利</a></li>
+          
+            <li><a href='/tags.php?/%E5%AD%A6%E9%99%A2/'>学院</a></li>
+          
+            <li><a href='/tags.php?/%E7%90%83%E6%8A%80/'>球技</a></li>
+          
+            <li><a href='/tags.php?/%E5%87%BA%E4%BC%97/'>出众</a></li>
+          
+            <li><a href='/tags.php?/%E6%A0%A1%E6%99%AF/'>校景</a></li>
+          
+            <li><a href='/tags.php?/%E9%AB%98%E6%A0%A1%E5%AD%A6%E7%94%9F/'>高校学生</a></li>
+          
+          </ul>
+        </div>
+    </div><!-- //search -->
+		</div>
+	</div>
+</div><!-- //header -->
+
+<!-- /header -->
+<div class="w960 center clear mt1">
+<div class="pleft">
+ <div class="place"> <strong>当前位置:</strong> <a href='http://localhost:82/'>主页</a> > <a href='/a/zhaoshenggongzuo/'>招生工作</a> > <a href='/a/zhaoshenggongzuo/zhaoshengxuanchuan/'>招生宣传</a> >  </div>
+ <!-- /place -->
+ <div class="viewbox">
+  <div class="title">
+   <h2>教育部文件 教高〔2007〕9号</h2>
+  </div>
+  <!-- /title -->
+  <div class="info"> <small>时间:</small>2016-05-24 15:52<small>来源:</small>未知 <small>作者:</small>admin <small>点击:</small>
+   <script src="/plus/count.php?view=yes&aid=101&mid=1" type='text/javascript' language="javascript"></script>
+   次</div>
+  <!-- /info -->
+  
+  <div class="intro">教育部关于进一步加强部属高等学校成人高等教育和继续教育管理的通知 部属各高等学校： 多年来，部属高等学校成人高等教育和继续教育发展迅速并取得很大成绩，满足了人民群众接受高等教育的多样化需求，为社会主义现代化事业培养 了各类专门人才，推进了高等</div>
+  
+  <div class="content">
+   <table width='100%'>
+    <tr>
+     <td><div id="contentMidPicAD" style="float:right; clear:both; top:0; vertical-align:top;"></div>
+      <p align="center">
+	<strong>教育部关于进一步加强部属高等学校成人高等教育和继续教育管理的通知</strong></p>
+<p>
+	部属各高等学校：</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;多年来，部属高等学校成人高等教育和继续教育发展迅速并取得很大成绩，满足了人民群众接受高等教育的多样化需求，为社会主义现代化事业培养 了各类专门人才，推进了高等教育大众化，成为我国高等教育体系和终身教育体系的重要组成部分，也成为高等学校服务于社会的重要渠道。当前，党中央、国务院 提出了高等教育要切实把重点放在提高质量上的战略决策，面对新的形势和任务，为了充分发挥部属高等学校在建设学习型社会和构建终身教育体系中的骨干带头作 用，加强对部属高等学校成人高等教育和继续教育的管理，进一步推进发展、改革与创新，现提出如下要求：</p>
+<p>
+	<strong>一、提高认识，进一步明确成人高等教育和继续教育的发展定位</strong></p>
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;各校要站在全面建设小康社会的高度，按照建设学习型社会和构建终身教育体系的要求，充分认识发展成人高等教育和继续教育的重要性，以科学发 展观为指导，贯彻&ldquo;积极发展、规范管理、提高质量、改革创新&rdquo;的方针，正确处理好规模、质量、结构和效益的关系，把成人高等教育和继续教育纳入学校的总体 发展规划，统筹管理，协调发展。要结合学校自身的定位、特色和学科优势，科学合理地确定办学类型、层次和专业，主要面向在职人员开展业余形式的高中后和大 学后学历教育和非学历教育培训，大力开展党政人才、企业经营管理人才和专业技术人才的继续教育。<span style="color:#ff0000;">各校要从2007年秋季开始停止招收成人脱产班和高等教育自学考试社会助学脱产班，也不能与其他机构合作举办上述脱产班。现代远程教育试点高校要充分利用现代信息技术，逐步将函授教育过渡到现代远程教育。</span></p>
+<p>
+	<strong>一、依法治教，进一步加强成人高等教育和继续教育的规范管理</strong></p>
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;各校要高度重视成人高等教育和继续教育的发展和规范管理，并纳入到学校党政领导重要的议事日程，系统研究发展、改革与规范管理的工作思路和 措施，探索继续教育发展的新模式。要整合资源，进一步理顺成人高等教育和继续教育的管理体制，实行统一归口管理，依法治教、规范办学。要严格执行我部已出 台的学历文凭政策，加强学生的学籍管理，严格证书审核和发放制度。<span style="color:#ff0000;">要严格校外合作办学审 批、 检查和监管制度，慎重选择成人高等教育和继续教育合作办学机构，严禁与个人、非法人单位和不具备条件的机构合作办学。严禁在开展业余形式的高等教育自学考 试社会助学活动中与其他机构合作。要坚持办学的主体地位，严禁转移和下放教学权和办学权，不得以任何形式转移招生录取的职责和权利，严禁委托个人或中介机 构代理招生，不得发布模糊和虚假信息误导学生。要加强对函授教育教学站点的监管，及时撤销已出现违规问题的教学站点，并向社会公布。</span></p>
+<p>
+	三、<strong>深化改革，进一步提高成人高等教育和继续教育的教学质量</strong></p>
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;各校要把提高成人高等教育和继续教育的教学质量放在更加突出的重要位置，把工作重心转移到加强教学工作和提高人才培养质量上来。要遵循成人 高等教育和继续教育规律，以学习者为中心，针对在职人员业余学习的特点和需求，加强教学支持服务，进一步深化课程体系、教学内容、教学方法和手段等方面的 改革，建立适合于成人业余学习的人才培养模式及教学管理制度，全面推进弹性学制和学分制。要加大教学投入，加强优质教学资源、教师和管理队伍的建设。要加 强对成人高等教育和继续教育教学过程的管理，加强学风建设，严肃考风考纪，逐步建立并完善成人高等教育和继续教育的质量保障和监督体系。</p>
+<p>
+	<strong>二、加强领导，切实做好成人高等教育和继续教育的稳定工作</strong></p>
+&nbsp;&nbsp;&nbsp;&nbsp;各校要以高度的政治敏锐性和政治责任感，充分认识保持稳定的重要性和紧迫性，切实贯彻稳定压倒一切的方针，始终把规范办学秩序、维护学校稳 定摆在重要位置。要坚持党政一把手负总责，实行责任追究制，把稳定工作的各项责任、措施落到实处。要高度重视对成人高等教育和继续教育学生的管理，并纳入 学校学生管理的整体工作中，要特别加强对已招收的成人脱产班和高等教育自学考试社会助学脱产班学生的思想政治工作。要全面排查梳理存在的问题，特别是目前 成人高等教育和继续教育中存在的可能影响高校稳定的突出问题和隐患，以及停止招收成人脱产班和高等教育自学考试社会助学脱产班后的遗留问题，提出化解这些 问题的对策措施，制订切实可行的工作预案，建立健全管理制度，把可能出现的各种影响稳定的因素消灭在萌芽状态，保证正常教学工作秩序。高等学校是稳定工作 的责任主体，对出现严重问题的学校，要追究有关领导和相关负责人的责任。接到本通知后，各校党政主要领导要尽快召开专题会议，认真研究，贯彻落实，并将落 实情况于2007年5月底前以学校名义用书面和电子邮件形式报我部高等教育司远程与继续教育处备案
+      
+      (责任编辑：admin)</td>
+    </tr>
+   </table>
+  </div>
+  <!-- /content -->
+  <div class="dede_pages">
+   <ul class="pagelist">
+    
+   </ul>
+  </div>
+
+<center>  <a href='http://2v.dedecms.com/' id='__dedeqrcode_6'>织梦二维码生成器</a>
+  <script type="text/javascript">
+  	var __dedeqrcode_id=6;
+  	var __dedeqrcode_aid=101;
+  	var __dedeqrcode_type='arc';
+  	var __dedeqrcode_dir='/plus';
+  </script>
+  <script language="javascript" type="text/javascript" src="/plus/img/qrcode.js"></script></center>
+  
+  <!-- /pages -->
+  <!-- //顶踩 -->
+  <div class="newdigg" id="newdigg">
+   <div class="diggbox digg_good" onmousemove="this.style.backgroundPosition='left bottom';" onmouseout="this.style.backgroundPosition='left top';" onclick="javascript:postDigg('good',101)">
+    <div class="digg_act">顶一下</div>
+    <div class="digg_num">(0)</div>
+    <div class="digg_percent">
+     <div class="digg_percent_bar"><span style="width:0%"></span></div>
+     <div class="digg_percent_num">0%</div>
+    </div>
+   </div>
+   <div class="diggbox digg_bad" onmousemove="this.style.backgroundPosition='right bottom';" onmouseout="this.style.backgroundPosition='right top';" onclick="javascript:postDigg('bad',101)">
+    <div class="digg_act">踩一下</div>
+    <div class="digg_num">(0)</div>
+    <div class="digg_percent">
+     <div class="digg_percent_bar"><span style="width:0%"></span></div>
+     <div class="digg_percent_num">0%</div>
+    </div>
+   </div>
+  </div>
+  <script language="javascript" type="text/javascript">getDigg(101);</script>
+  <!-- //顶踩部份的源码结束 -->
+  <!-- //分享代码开始 -->
+  
+  <!-- //分享代码结束 -->
+  <div class="boxoff"> <strong>------分隔线----------------------------</strong> </div>
+  <div class="handle">
+   <div class="context">
+    <ul>
+     <li>上一篇：<a href='/a/zhaoshenggongzuo/zhaoshengxuanchuan/25.html'>首页大图 可以后台设置带有幻灯属性的文档</a> </li>
+     <li>下一篇：<a href='/a/zhaoshenggongzuo/zhaoshengxuanchuan/102.html'>教育政策您了解吗？</a> </li>
+    </ul>
+   </div>
+   <!-- /context -->
+   <div class="actbox">
+    <ul>
+     <li id="act-fav"><a href="/plus/stow.php?aid=101" target="_blank">收藏</a></li>
+     <li id="act-err"><a href="/plus/erraddsave.php?aid=101&title=教育部文件 教高〔2007〕9号" target="_blank">挑错</a></li>
+     <li id="act-pus"><a href="/plus/recommend.php?aid=101" target="_blank">推荐</a></li>
+     <li id="act-pnt"><a href="#" onClick="window.print();">打印</a></li>
+    </ul>
+   </div>
+   <!-- /actbox -->
+  </div>
+  <!-- /handle -->
+ </div>
+ <!-- /viewbox -->
+ <!-- //AJAX评论区 -->
+ 
+ </div>
+<!-- //左边内容结束 -->
+<!-- //右边内容开始 -->
+<div class="pright"> 
+ <div class="pright">
+  <div>
+   <dl class="tbox">
+    <dt><strong>栏目列表</strong></dt>
+    <dd>
+     <ul class="d6">
+      
+      <li><a href='/a/zhaoshenggongzuo/xueyuangaikuang/'>学院概况</a></li>
+      
+      <li><a href='/a/zhaoshenggongzuo/xinshengzhinan/'>新生指南</a></li>
+      
+      <li><a href='/a/zaixianbaoming/'>在线报名</a></li>
+      
+      <li><a href='/a/zhaoshenggongzuo/jiuyexinxi/'>就业信息</a></li>
+      
+      <li><a href='/a/zhaoshenggongzuo/zhuanyejieshao/'>专业介绍</a></li>
+      
+      <li><a href='/a/zhaoshenggongzuo/zhaoshengxinxi/'>招生信息</a></li>
+      <li><a href='/a/zhaoshenggongzuo/zhaoshengxuanchuan/' class='thisclass'>招生宣传</a></li>
+      <li><a href='/a/zhaoshenggongzuo/zhengcefagui/'>政策法规</a></li>
+      
+      <li><a href='/a/zhaoshenggongzuo/zhaoshengwenda/'>招生问答</a></li>
+      
+      <li><a href='/a/zhaoshenggongzuo/zhaoshengjianzhang/'>招生简章</a></li>
+      
+     </ul>
+    </dd>
+   </dl>
+  </div>
+  <div id="contentRtPicAD" style="margin:10px auto"></div>
+  <div class="commend mt1">
+   <dl class="tbox light">
+    <dt class='light'><strong>推荐内容</strong></dt>
+    <dd class='light'>
+     <ul class="d4">
+      
+     </ul>
+    </dd>
+   </dl>
+  </div>
+  <!-- /commend -->
+  <div class="hot mt1">
+   <dl class="tbox light">
+    <dt class='light'><strong>热点内容</strong></dt>
+    <dd class='light'>
+     <ul class="c1 ico2">
+      <li><a href="/a/zhaoshenggongzuo/zhaoshengxuanchuan/102.html">教育政策您了解吗？</a></li>
+<li><a href="/a/zhaoshenggongzuo/zhaoshengxuanchuan/23.html">首页大图 后台修改</a></li>
+<li><a href="/a/zhaoshenggongzuo/zhaoshengxuanchuan/22.html">首页大图</a></li>
+<li><a href="/a/zhaoshenggongzuo/zhaoshengxuanchuan/104.html">汉口学院自考本科有什么</a></li>
+<li><a href="/a/zhaoshenggongzuo/zhaoshengxuanchuan/101.html">教育部文件 教高〔2007〕</a></li>
+<li><a href="/a/zhaoshenggongzuo/zhaoshengxuanchuan/25.html">首页大图 可以后台设置带</a></li>
+<li><a href="/a/zhaoshenggongzuo/zhaoshengxuanchuan/24.html">首页大图2</a></li>
+<li><a href="/a/zhaoshenggongzuo/zhaoshengxuanchuan/103.html">现在全日制本科助学班毕</a></li>
+<li><a href="/a/zhaoshenggongzuo/zhaoshengxuanchuan/105.html">什么叫“全日制本科助学</a></li>
+
+     </ul>
+    </dd>
+   </dl>
+  </div>
+  <div id="contentRtPicAD2" style="margin:10px auto"></div>
+ </div>
+ <!-- /pright -->
+</div>
+<div id="innerfooterAD2" style="margin:10px auto; width:726px"></div>
+
+<!-- //底部模板 -->
+<div class="footer w960 center mt1 clear">
+	<!-- 
+		为了支持织梦团队的发展,请您保留织梦内容管理系统的链接信息.
+		我们对支持织梦团队发展的朋友表示真心的感谢!织梦因您更精彩!
+	-->
+    <div class="footer_left"></div>
+    <div class="footer_body">
+	<p class="powered">    
+		Powered by <a href="http://www.dedecms.com" title="织梦内容管理系统(DedeCms)--国内最专业的PHP网站管理系统，轻松建站的首选利器。" target="_blank"><strong>DedeCMS_V57_UTF8_SP1</strong></a> &copy; 2004-2011 <a href="http://www.desdev.cn/" target="_blank">DesDev</a> Inc.<br /><div class="copyright">Copyright &copy; 2004-2011 DEDECMS. 织梦科技 版权所有&nbsp;&nbsp;</div></p>        
+<!-- /powered -->
+   </div>
+   <div class="footer_right"></div>
+</div>
+<!-- /footer -->
+</body>
+</html>
