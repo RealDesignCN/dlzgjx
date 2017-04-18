@@ -1,0 +1,1 @@
+<li style="display: list-item;"> <a class="need-pic" href="[field:arcurl/]"> <img src="[field:litpic/]" alt="[field:title/]">[field:title/]</a> </li>

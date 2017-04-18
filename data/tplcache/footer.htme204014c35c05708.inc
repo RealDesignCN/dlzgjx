@@ -13,9 +13,9 @@ $z[5]=Array("global","",716,750);
 $z[5][4]['name']="cfg_company_address";
 $z[6]=Array("global","",758,790);
 $z[6][4]['name']="cfg_company_email";
-$z[7]=Array("global","",2683,2712);
+$z[7]=Array("global","",2726,2755);
 $z[7][4]['name']="cfg_company_qq";
-$z[8]=Array("global","",2797,2826);
+$z[8]=Array("global","",2840,2869);
 $z[8][4]['name']="cfg_company_qq";
 
 ?>

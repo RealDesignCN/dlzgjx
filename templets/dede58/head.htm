@@ -12,22 +12,33 @@
   </div>
   <!-- top -->
 </div>
-<Div style="text-align:center; margin:0 auto; width:1024px; overflow:hidden;"><img src="/dede58/img/head.jpg" width="1024" height="120" /></Div>
+<Div style="text-align:center; margin:0 auto; width:1024px; overflow:hidden;">
+  <div class="meitou">
+    <div class="meitounei">
+      <img src="/dede58/img/home/index_02.jpg" class="logo">
+      <img src="/dede58/img/home/index_03.jpg" class="mtu">
+      <ul class="mlei">
+          <li>加拿大出国留学基地</li>
+          <li>中职学生升入大学直通动车</li>
+          <li>辽宁装备职业技术学院大连教学区</li>
+      </ul>
+    </div>
+  </div>
+</Div>
 <!-- top-bg -->
 
 <div id="nav-pic-bg">
-<ul id="nav">
-  <li><a class="nn n1" href="/"><img src='/dede58/img/cslg2013-index.png' alt=''></a></li>
-  {dede:channelartlist typeid='top' row='6'}
-  <li><a class="nn n{dede:global name=itemindex runphp='yes'}@me=@me+1;{/dede:global}" href="#">{dede:global name=itemindex runphp='yes'}@me=@me-1;{/dede:global}</a>
-    <div> {dede:channel type='son' noself='yes'}<a href="[field:typelink/]" class="on" >[field:typename/]</a>{/dede:channel} </div>
-  </li>
-  {/dede:channelartlist}
-  <li class="nn n8">
-    <form method='get' action="/plus/search.php" target="_blank">
-      <input name='q' type='text' class='input_text' value="">
-      <input type='submit' name='btnG' value='' class='input_btn'>
-      <input type="hidden" name="kwtype" value="0" />
-    </form>
-  </li>
-</ul>
+  <div class="nav-wrapper">
+    <ul id="nav" class="menu daohangnei">
+      <li class="mainlevel libh" ><a href="/" title="网站首页">网站首页</a></li>
+      {dede:channelartlist typeid='top'}
+      <li class="mainlevel" id="mainlevel_0[field:global.autoindex/]">
+        <a href="{dede:field name='typeurl'/}"  title="{dede:field name='typename'/}" class="navList">{dede:field name='typename'/}</a>
+        <ul id="sub_01" class="menual">
+          {dede:channel type='son' noself='yes'}
+          <li><a href="[field:typeurl/]">[field:typename/]</a></li>
+          {/dede:channel}
+        </ul>
+      </li>
+      {/dede:channelartlist}
+    </ul>

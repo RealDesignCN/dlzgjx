@@ -8,7 +8,7 @@ html, body {
 	width: 100%;
 }
 body {
-	font-family: "??????", Arial;
+	font-family: "微软雅黑", Arial;
 	font-size: 12px;
 	line-height: 24px;
 }
@@ -21,6 +21,64 @@ img {
 .clear {
 	clear: both;
 }
+/*
+* start top menu
+*/
+.linob {
+	background-image: none !important;
+}
+.libh a {
+	width: 124px;
+	font-size: 18px;
+	text-align: center;
+	background: url(../images/spanLine.jpg) no-repeat right 0;
+}
+.menu .mainlevel {
+	float: left;
+	line-height: 51px;
+	padding: 0;
+	height: 51px;
+	display: inline;
+	width: 124px;/*IE6 only*/
+}
+.menu .mainlevel a {
+	font-size: 16px;
+	text-decoration: none;
+	height: 51px;
+	line-height: 51px;
+	display: block;
+	color: white;
+	text-align: center;
+}
+.menu .mainlevel a.navList {
+	background: url(../images/spanLine.jpg) no-repeat right 0;
+}
+.menu .mainlevel a:hover {
+	text-decoration: none;
+	background-color: #f5f5f5;
+	color: #505050;
+}
+.menu .mainlevel ul {
+	display: none;
+	position: absolute;
+	z-index: 9999;
+}
+.menu .mainlevel li {
+	border-top: 1px solid #fff;
+	background-color: #019781;
+	width: 124px;/*IE6 only*/
+}
+.menu .mainlevel li a {
+	color: white;
+	height: 32px;
+	line-height: 32px;
+}
+.menu .mainlevel li a:hover {
+	background-color: #ffac00
+}
+
+/**************** end menu **********************/
+
 #top-bg {
 	background: url(img/cslg2013_03.png) 0 0 repeat-x;
 }
@@ -285,11 +343,11 @@ img {
 	height: 260px;
 }
 #main-wrapper {
-	width: 1024px;
+	width: 1100px;
 	margin: 0 auto;
 }
 #index-page #main-wrapper {
-	background: url(img/cslg2013_17.png) 0 0 repeat-y;
+	background: url(img/cslg2013_17.png) center center repeat-y;
 }
 #index-page #main-box {
 	padding: 0 24px;
@@ -883,7 +941,7 @@ ul#ft .fd {
 	padding-top: 4px;
 }
 .picMarquee-left {
-	width: 972px;
+	/*width: 972px;*/
 	overflow: hidden;
 	position: relative;
 	border: 1px solid #ccc;
@@ -920,6 +978,8 @@ ul#ft .fd {
 }
 .picMarquee-left .bd ul li .title {
 	line-height: 24px;
+	padding: 0;
+	background-image: none;
 }
 /*????????????*/
 .qqserver p img {

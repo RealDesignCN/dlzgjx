@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
 <meta name="keywords" content="{dede:field name='keywords'/}" />
 <meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
@@ -15,7 +15,7 @@
 <!-- nav -->
 </div>
 <!-- nav-pic-bg -->
-<div id="inner-logo"><img src="/dede58/img/1462863696.jpg" alt="内页广告" width="1024" height="260" /></div>
+<div id="inner-logo"><img src="/dede58/img/1462863696.jpg" alt="锟斤拷页锟斤拷锟斤拷" width="1024" height="260" /></div>
 <div id="main-wrapper">
 <div id="main-box">
 <div class="left">
